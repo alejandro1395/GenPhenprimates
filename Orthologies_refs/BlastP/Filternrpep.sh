@@ -12,8 +12,8 @@ mkdir -p /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/results/BLA
 Primates=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/REFS/
 OUTDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/results/BLAST_in/
 SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Orthologies_refs/BlastP/
-mkdir -p ${OUTDIR}qu
-mkdir -p ${OUTDIR}out
+mkdir -p ${OUTDIR}Query/qu
+mkdir -p ${OUTDIR}Query/out
 
 for filepath in $(ls ${Primates}*/*.pep.*);
 do species_name=$(echo $filepath | rev | cut -d'/' -f1 | rev | cut -d \. -f 1)
