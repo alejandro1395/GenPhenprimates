@@ -1,1 +1,6 @@
 #Here I create the doc file for scripts on this project
+
+1ST step -- Filter query species for establishing orthologies with non-redund sequences
+
+2nd step -- Create target database with non-redundant sequence for the whole set of species
+
