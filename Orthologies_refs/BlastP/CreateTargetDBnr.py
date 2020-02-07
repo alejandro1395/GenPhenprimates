@@ -36,8 +36,8 @@ else:
 
 """
 In this case, we create a function that takes a fasta_file as input, and parse
-it creating a dictionary where the keys are the IDs without the > symbol and
-the values are the nucleotide sequences concatenated
+it creating a dictionary where the keys are the aaseqs without the > symbol and
+the values are the IDs (multiple possible IDS for same protein sequence)
 """
 
 
@@ -52,20 +52,20 @@ def parse_fasta_create_dictionary_idandsequence_with_nr(fasta_input):
             line = line.rstrip()
             if line.startswith(">"):
                 if seq != "":
-                    if seq in list(sequences.values()):
-                        previous_ID = list(sequences.keys())[list(sequences.values()).index(seq)]
-                        del sequences[previous_ID]
-                        new_ID = previous_ID + "_" + ident
-                        sequences[new_ID] = seq
+                    if seq in sequences.keys():
+                        sequences[seq] = sequences[seq] + "_" + ident
                         seq = ""
                     else:
-                        sequences[ident] = seq
+                        sequences[seq] = ident
                         seq = ""
                 ident = line.strip(">")
             else:
                 line = line.upper()
                 seq += line
-        sequences[ident] = seq
+        if seq in sequences.keys():
+            sequences[seq] = sequences[seq] + "_" + ident
+        else:
+            sequences[seq] = ident
     return sequences
 
 
@@ -76,8 +76,8 @@ proteinIDs after the filtering for each one of the species nr
 
 def write_out_file_for_aasequence_nr(aa_sequences):
     with gzip.open(out_file, "wt") as out_fh:
-        for ident in aa_sequences:
-                print(">{}\n{}".format(ident, aa_sequences[ident]), file=out_fh)
+        for seq in aa_sequences:
+                print(">{}\n{}".format(aa_sequences[seq], seq), file=out_fh)
 
 
 #MAIN SCRIPT

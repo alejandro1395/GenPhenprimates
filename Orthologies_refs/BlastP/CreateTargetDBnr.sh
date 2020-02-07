@@ -12,6 +12,10 @@ mkdir -p ${OUTDIR}nrDB
 mkdir -p ${OUTDIR}nrDB/qu
 mkdir -p ${OUTDIR}nrDB/out
 
+#loop for concatenating all reference species information
+if [ -f ${OUTDIR}nrDB/allspeciesDB.pep.gz ] ; then
+    rm ${OUTDIR}nrDB/allspeciesDB.pep.gz
+fi
 touch ${OUTDIR}nrDB/allspeciesDB.pep.gz
 for filepath in $(ls ${INDIR}*_*/*.pep.*);
 do species_name=$(echo $filepath | rev | cut -d'/' -f1 | rev | cut -d \. -f 1)
@@ -23,11 +27,11 @@ module purge
 module load gcc/4.9.3-gold
 module load PYTHON/3.6.3
 
-python ${SRC}Filternrpep.py ${OUTDIR}nrDB/allspeciesDB.pep.gz ${OUTDIR}nrDB/allspeciesDBnr.pep.gz" > ${OUTDIR}nrDB/qu/allspeciesDBnr.pep.sh
+python ${SRC}CreateTargetDBnr.py ${OUTDIR}nrDB/allspeciesDB.pep.gz ${OUTDIR}nrDB/allspeciesDBnr.pep.gz" > ${OUTDIR}nrDB/qu/allspeciesDBnr.pep.sh
 jobname=$(echo ${OUTDIR}nrDB/qu/allspeciesDBnr.pep.sh)
 chmod 755 $jobname
 
 #SUBMISSION TO CLUSTER
-/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}nrDB/out/allspeciesDBnr.pep.out \
--e ${OUTDIR}nrDB/qu/allspeciesDBnr.pep.err -n merging -u 1 -t 1 -w 02:00:00
+#/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}nrDB/out/allspeciesDBnr.pep.out \
+#-e ${OUTDIR}nrDB/qu/allspeciesDBnr.pep.err -n merging -u 1 -t 1 -w 00:05:00
 #done
