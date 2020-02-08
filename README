@@ -1,6 +1,11 @@
 #Here I create the doc file for scripts on this project
 
-1ST step -- Filter query species for establishing orthologies with non-redund sequences
+1ST step -- Filter query species for establishing orthologies with non-redund sequences (Python/CD-HIT)
 
-2nd step -- Create target database with non-redundant sequence for the whole set of species
+2nd step -- Create target database with non-redundant sequence for the whole set of species (Python/CD-HIT)
+
+3rd step -- Make BlastDB for non-redundant set of proteins from CD-HIT SOFTWARE
+
+4th step -- BLASTP allvsall looping for each reference species in our set (previous to FIND BBH, just searching homology)
+
 

@@ -32,6 +32,6 @@ jobname=$(echo ${OUTDIR}nrDB/qu/allspeciesDBnr.pep.sh)
 chmod 755 $jobname
 
 #SUBMISSION TO CLUSTER
-#/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}nrDB/out/allspeciesDBnr.pep.out \
-#-e ${OUTDIR}nrDB/qu/allspeciesDBnr.pep.err -n merging -u 1 -t 1 -w 00:05:00
+/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}nrDB/out/allspeciesDBnr.pep.out \
+-e ${OUTDIR}nrDB/qu/allspeciesDBnr.pep.err -n merging -u 1 -t 1 -w 00:05:00
 #done
