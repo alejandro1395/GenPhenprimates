@@ -26,12 +26,14 @@ module load BLAST+
 gunzip -c ${filepath} | blastp -query - \
 -db ${TARGETDB}allspeciesDBnr_99.pep \
 -evalue 1e-4 \
+-num_alignments 0 \
 -out ${OUTDIR}${species_name}/${species_name}.nr99.pep \
--num_threads 4" > ${OUTDIR}qu/${species_name}.nr99.pep.sh
+-num_threads 4;
+gzip ${OUTDIR}${species_name}/${species_name}.nr99.pep" > ${OUTDIR}qu/${species_name}.nr99.pep.sh
 jobname=$(echo ${OUTDIR}qu/${species_name}.nr99.pep.sh)
 chmod 755 $jobname
 
 #SUBMISSION TO CLUSTER
 /scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}out/${species_name}.nr99.pep.out \
--e ${OUTDIR}out/${species_name}.nr99.pep.err -n ${species_name} -u 4 -t 1 -w 02:00:00
+-e ${OUTDIR}out/${species_name}.nr99.pep.err -n ${species_name} -u 4 -t 1 -w 1-23:55:00 -r lowprio
 done

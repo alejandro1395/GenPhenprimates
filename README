@@ -8,4 +8,8 @@
 
 4th step -- BLASTP allvsall looping for each reference species in our set (previous to FIND BBH, just searching homology)
 
+5th Step -- Script to create fasta of CDS sequence from the reference species fasta and their annotations
 
+6th Step -- Script to concatenate CDS sequences and translate them to protein fasta sequences (2 species by now more)
+(Take care, for each gene (total of 18,875 for example for Tarsius), keep the longest CDS ) --> FILTRAR EN EL CDS_MERGE (me tienen que quedar alrededor de 19000-18000 prot)
+--> La mejor opcion para filtrar

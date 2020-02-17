@@ -17,13 +17,13 @@ module load gcc/6.3.0
 module load PYTHON/3.6.3
 module load BLAST+
 
-gunzip -c ${INDIR}allspeciesDBnr_99.pep.fa.gz | makeblastdb -in - \
--out ${INDIR}allspeciesDBnr_99.pep \
--title allspeciesDBnr_99.pep.fa \
--dbtype prot" > ${INDIR}qu/allspeciesDBnr_99.pep.makeblast.sh
-jobname=$(echo ${INDIR}qu/allspeciesDBnr_99.pep.makeblast.sh)
+gunzip -c ${INDIR}allspeciesDBnr_100.pep.fa.gz | makeblastdb -in - \
+-out ${INDIR}allspeciesDBnr_100.pep \
+-title allspeciesDBnr_100.pep.fa \
+-dbtype prot" > ${INDIR}qu/allspeciesDBnr_100.pep.makeblast.sh
+jobname=$(echo ${INDIR}qu/allspeciesDBnr_100.pep.makeblast.sh)
 chmod 755 $jobname
 
 #SUBMISSION TO CLUSTER
-/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${INDIR}out/allspeciesDBnr_99.pep.makeblast.out \
--e ${INDIR}out/allspeciesDBnr_99.pep.makeblast.err -n makeblastDB -u 1 -t 1 -w 00:05:00
+/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${INDIR}out/allspeciesDBnr_100.pep.makeblast.out \
+-e ${INDIR}out/allspeciesDBnr_100.pep.makeblast.err -n makeblastDB -u 1 -t 1 -w 00:05:00
