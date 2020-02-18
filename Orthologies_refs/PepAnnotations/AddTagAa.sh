@@ -12,8 +12,8 @@ OUTDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/
 SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Orthologies_refs/PepAnnotations/
 
 echo $Primates | tr " " "\n" | while read primate;
-do zcat ${OUTDIR}${primate}/${primate}.merged_CDS.fa.gz | \
-transeq -sequence stdin -outseq ${OUTDIR}${primate}/${primate}.pep.fa -trim Y -clean Y;
+do zcat ${OUTDIR}${primate}/${primate}.pep.fa.gz | perl -p -e 's/^>(.*)/>'$primate' $1/' > ${OUTDIR}${primate}/${primate}.pep.fa;
+rm ${OUTDIR}${primate}/${primate}.pep.fa.gz;
 gzip ${OUTDIR}${primate}/${primate}.pep.fa;
 
 #SUBMISSION TO CLUSTER

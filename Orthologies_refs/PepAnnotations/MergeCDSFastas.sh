@@ -11,7 +11,7 @@ OUTDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/
 SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Orthologies_refs/PepAnnotations/
 
 echo $Primates | tr " " "\n" | while read primate;
-do python ${SRC}MergeCDSFastas.py ${OUTDIR}${primate}/*.fa.gz ${OUTDIR}${primate}/*CDS.gff.gz ${OUTDIR}${primate}/${primate}.merged_CDS.fa.gz
+do python ${SRC}MergeCDSFastas.py ${OUTDIR}${primate}/*CDS.fa.gz ${OUTDIR}${primate}/*CDS.gff.gz ${OUTDIR}${primate}/${primate}.merged_CDS.fa.gz;
 
 #SUBMISSION TO CLUSTER
 #/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}out/${species_name}.nr.pep.out \
