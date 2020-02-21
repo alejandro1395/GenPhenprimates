@@ -24,8 +24,8 @@ ${OUTDIR}${primate}/${primate}.CDS.gff;
 gzip ${OUTDIR}${primate}/${primate}.CDS.gff;
 #IMPORT ZIPPED FILE INTO BEDTOOLS GETFASTA
 zcat ${OUTDIR}${primate}/${primate}.CDS.gff.gz | bedtools getfasta -fi ${REFS}${primate}/*.fna -bed - -s -fo stdout | \
-paste - - > ${OUTDIR}${primate}/${primate}.CDS.fa;
-gzip ${OUTDIR}${primate}/${primate}.CDS.fa;
+paste - - > ${OUTDIR}${primate}/${primate}.all_CDS.fa;
+gzip ${OUTDIR}${primate}/${primate}.all_CDS.fa;
 
 #SUBMISSION TO CLUSTER
 #/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}Query/out/${species_name}.nr99.pep.out \
