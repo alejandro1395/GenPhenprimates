@@ -20,7 +20,7 @@ module load BLAST+
 gunzip -c ${INDIR}allspeciesDBnr_100.cds.fa.gz | makeblastdb -in - \
 -out ${INDIR}allspeciesDBnr_100.cds \
 -title allspeciesDBnr_100.cds.fa \
--dbtype prot" > ${INDIR}qu/allspeciesDBnr_100.cds.makeblast.sh
+-dbtype nucl" > ${INDIR}qu/allspeciesDBnr_100.cds.makeblast.sh
 jobname=$(echo ${INDIR}qu/allspeciesDBnr_100.cds.makeblast.sh)
 chmod 755 $jobname
 

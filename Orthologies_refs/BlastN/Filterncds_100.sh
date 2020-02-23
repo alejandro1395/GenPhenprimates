@@ -25,11 +25,11 @@ module load PYTHON/3.6.3
 module load CDHIT/4.7
 
 gunzip ${filepath};
-cd-hit \
+cd-hit-est \
 -i ${Primates}${species_name}/${species_name}.cds.fa \
 -o ${OUTDIR}Query/${species_name}/${species_name}.nr100.cds.fa \
 -c 1.0 \
--n 5 \
+-n 10 \
 -M 16000 \
 -d 0 \
 -T 8;
@@ -40,5 +40,5 @@ chmod 755 $jobname
 
 #SUBMISSION TO CLUSTER
 /scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}Query/out/${species_name}.nr100.cds.out \
--e ${OUTDIR}Query/out/${species_name}.nr100.cds.err -n ${species_name} -u 1 -t 1 -w 00:05:00
+-e ${OUTDIR}Query/out/${species_name}.nr100.cds.err -n ${species_name} -u 1 -t 1 -w 00:30:00
 done

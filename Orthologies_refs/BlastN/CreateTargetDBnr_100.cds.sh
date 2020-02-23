@@ -29,14 +29,14 @@ module load PYTHON/3.6.3
 module load CDHIT/4.7
 
 gunzip ${OUTDIR}nrDB/allspeciesDB.cds.fa.gz;
-cd-hit \
+cd-hit-est \
 -i ${OUTDIR}nrDB/allspeciesDB.cds.fa \
 -o ${OUTDIR}nrDB/allspeciesDBnr_100.cds.fa \
 -c 1.0 \
--n 5 \
--M 16000 \
+-n 10 \
+-M 0 \
 -d 0 \
--T 8;
+-T 0;
 gzip ${OUTDIR}nrDB/allspeciesDB.cds.fa;
 if [ -f ${OUTDIR}nrDB/allspeciesDB.cds.fa ] ; then
     rm ${OUTDIR}nrDB/allspeciesDB.cds.fa
@@ -47,5 +47,5 @@ chmod 755 $jobname
 
 #SUBMISSION TO CLUSTER
 /scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}nrDB/out/allspeciesDBnr_100.cds.out \
--e ${OUTDIR}nrDB/qu/allspeciesDBnr_100.cds.err -n merging -u 1 -t 1 -w 02:O0:00
+-e ${OUTDIR}nrDB/qu/allspeciesDBnr_100.cds.err -n merging -u 4 -t 1 -w 06:O0:00
 #done
