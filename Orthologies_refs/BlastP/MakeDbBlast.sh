@@ -25,5 +25,5 @@ jobname=$(echo ${INDIR}qu/allspeciesDBnr_100.pep.makeblast.sh)
 chmod 755 $jobname
 
 #SUBMISSION TO CLUSTER
-/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${INDIR}out/allspeciesDBnr_100.pep.makeblast.out \
--e ${INDIR}out/allspeciesDBnr_100.pep.makeblast.err -n makeblastDB -u 1 -t 1 -w 00:05:00
+#/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${INDIR}out/allspeciesDBnr_100.pep.makeblast.out \
+#-e ${INDIR}out/allspeciesDBnr_100.pep.makeblast.err -n makeblastDB -u 1 -t 1 -w 00:05:00

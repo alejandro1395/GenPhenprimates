@@ -48,7 +48,6 @@ def parse_fasta_create_dictionary_idandsequence_with_nr(fasta_input):
     with gzip.open(fasta_input, "rt") as in_fh:
         for line in in_fh:
             count+=1
-            print(count)
             line = line.rstrip()
             if line.startswith(">"):
                 if seq != "":

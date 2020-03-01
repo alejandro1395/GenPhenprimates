@@ -39,6 +39,6 @@ jobname=$(echo ${OUTDIR}Query/qu/${species_name}.nr100.cds.sh)
 chmod 755 $jobname
 
 #SUBMISSION TO CLUSTER
-/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}Query/out/${species_name}.nr100.cds.out \
--e ${OUTDIR}Query/out/${species_name}.nr100.cds.err -n ${species_name} -u 1 -t 1 -w 00:30:00
+#/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}Query/out/${species_name}.nr100.cds.out \
+#-e ${OUTDIR}Query/out/${species_name}.nr100.cds.err -n ${species_name} -u 1 -t 1 -w 00:30:00
 done
