@@ -35,5 +35,5 @@ chmod 755 $jobname
 
 #SUBMISSION TO CLUSTER
 /scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}out/${species_name}.nr100.cds.out \
--e ${OUTDIR}out/${species_name}.nr100.cds.err -n ${species_name} -u 4 -t 1 -w 1-23:55:00 -r lowprio
+-e ${OUTDIR}out/${species_name}.nr100.cds.err -n ${species_name} -u 4 -t 1 -w 2-23:55:00 -r lowprio
 done

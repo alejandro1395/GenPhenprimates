@@ -75,20 +75,28 @@ def create_BBHs_from_rows_in_merged_SBH_data(all_species_dfs, query_species,
 bbh_dict, bbh_df, column_names):
     for index, row in all_species_dfs[query_species].iterrows():
         bbh_dict[row['Query']] = []
-        print(index)
         for colname in column_names:
-            for item in Species_tags['Tag']:
-                if str(row[colname]).startswith(item):
-                    current_species = Species_tags.loc[Species_tags['Tag'] == item].Species.item()
-            target_species = all_species_dfs[current_species].loc[all_species_dfs[current_species]['Query'] == row[colname]]
-            if row['Query'] in target_species.values:
-                bbh_dict[row['Query']].append(row[colname])
+            if isNaN(row[colname]):
+                continue
+            else:
+                for item in Species_tags['Tag']:
+                    if str(row[colname]).startswith(item):
+                        current_species = Species_tags.loc[Species_tags['Tag'] == item].Species.item()
+                target_species = all_species_dfs[current_species].loc[all_species_dfs[current_species]['Query'] == row[colname]]
+                if row['Query'] in target_species.values:
+                    bbh_dict[row['Query']].append(row[colname])
         if not bbh_dict[row['Query']]:
             continue
         else:
             bbh_df = append_out_BBHs_pandas_format(bbh_dict, bbh_df, row['Query'])
     return bbh_df
 
+"""
+Function to check nan values
+"""
+
+def isNaN(string):
+    return string != string
 
 """
 FUnction to parse all BBH pairs of values and print them in the
