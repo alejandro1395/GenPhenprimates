@@ -70,6 +70,4 @@ p2 <- facet_plot(Primates_ggtree, panel = 'Reduction with 99% redund', data = me
   scale_fill_manual(values = c("gold1", "red3")) + geom_tiplab() + xlim_tree(1) + xlim_expand(c(0, 0.1), 'Tree')
 
 
-#SUM TOTALS
-
 

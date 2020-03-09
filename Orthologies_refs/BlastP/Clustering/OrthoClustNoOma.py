@@ -53,7 +53,7 @@ OMAs_df.to_csv(out_file + "OMAs/all_species.pep.OMAs.gz", sep = "\t", index=Fals
 target_species = Species_tags['Species'].to_list()
 for spc in target_species:
     OrthoClust_df[spc] = pd.DataFrame(columns=finalnames)
-    OrthoClust_df[spc].to_csv(out_file + spc + "/" + spc + ".pep.OrthoClust.gz", sep = "\t", index=False)
+    OrthoClust_df[spc].to_csv(out_file + spc + "/" + spc + ".pep.OrthoClustNoOma.gz", sep = "\t", index=False)
 
 
 """
@@ -109,22 +109,13 @@ ortho_df, column_names, omas, used_genes):
                     cand_clusters[row['Query']].append(row[colname])
                 #IF ORTHO CLUSTER IS an OMA group
                 cand_clusters[row['Query']] = set(cand_clusters[row['Query']])
-                if all(set([key] + list(cand_clusters[key]))==set([row['Query']] + list(cand_clusters[row['Query']])) for key in cand_clusters):
-                    append_out_row_pandas_format(cand_clusters, omas, row['Query'], out_file + "OMAs/all_species.pep.OMAs.gz")
-                    used_list = [row['Query']] + list(cand_clusters[row['Query']])
-                    for value in used_list:
-                        used_genes.add(value)
-                    #all_species_dfs = set_nan_values_for_other_ref_orthologous_proteins(all_species_dfs,
-                    #[row['Query']], cand_clusters[row['Query']], Species_tags)
-                #whether not check the longest one in terms of retrieval of orthologies
-                else:
-                    max_length, max_key = GetMaxFlox(cand_clusters)
-                    curr_species = select_current_species(Species_tags, max_key)
-                    append_out_row_pandas_format(cand_clusters,
-                    ortho_df[curr_species], max_key, out_file + curr_species + "/" + curr_species + ".pep.OrthoClust.gz")
-                    used_list = [max_key] + list(cand_clusters[max_key])
-                    for value in used_list:
-                        used_genes.add(value)
+                max_length, max_key = GetMaxFlox(cand_clusters)
+                curr_species = select_current_species(Species_tags, max_key)
+                append_out_row_pandas_format(cand_clusters,
+                ortho_df[curr_species], max_key, out_file + curr_species + "/" + curr_species + ".pep.OrthoClustNoOma.gz")
+                used_list = [max_key] + list(cand_clusters[max_key])
+                for value in used_list:
+                    used_genes.add(value)
                     #print(ortho_df[curr_species])
                     #all_species_dfs = set_nan_values_for_other_ref_orthologous_proteins(all_species_dfs,
                     #[row['Query']], cand_clusters[row['Query']], Species_tags)
