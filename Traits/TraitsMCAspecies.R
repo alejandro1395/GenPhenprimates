@@ -293,7 +293,7 @@ plot(sugg_spc_res.hcpc, choice = "map")
 sugg_spc_res.hcpc$desc.axes
 plot(sugg_spc_res.hcpc)
 
-traits_by_spc_clust_raw <- melt(head(sugg_spc_res.hcpc$desc.var$category))
+traits_by_spc_clust_raw <- melt(sugg_spc_res.hcpc$desc.var$category)
 traits_by_spc_clust_raw <- traits_by_spc_clust_raw[which(traits_by_spc_clust_raw$Var2 == "p.value") ,]
 variables <- unlist(strsplit(as.vector(traits_by_spc_clust_raw$Var1), "="))
 Traits <- variables[seq(1, length(variables), by=2)]
@@ -304,7 +304,7 @@ traits_by_spc_clust <- as.data.frame(cbind(traits_by_spc_clust_raw$L1,
 variables <- unlist(strsplit(as.vector(traits_by_spc_clust_raw$Var1), "="))
 colnames(traits_by_spc_clust) <- c("Cluster", "Trait", "p-value")
 traits_by_spc_clust <- traits_by_spc_clust[duplicated(traits_by_spc_clust), ]
-#View(traits_by_spc_clust)_raw)
+#View(traits_by_spc_clust_raw)
                                              
                            
 
@@ -384,9 +384,9 @@ Heatmap(matrix = -plot_spc_clustmatrix, name = "Species clusters",
 #split clusters
 #NOW WE CAN PRINT OUR DESIRED CLUSTER OF SPECIES
 
-selected_species_clust1 <- as.character(species_clusters_assigned$Species[which(species_clusters_assigned$Cluster == 8)])
+selected_species_clust1 <- as.character(species_clusters_assigned$Species[which(species_clusters_assigned$Cluster == 10)])
 selected_matrix <- -plot_spc_clustmatrix[selected_species_clust1, ]
-Heatmap(matrix = selected_matrix[, apply(selected_matrix,2,function(x) all(x>20))], name = "Species clusters",
+Heatmap(matrix = selected_matrix[, apply(selected_matrix,2,function(x) all(x>=20))], name = "Species clusters",
         #cluster_rows = color_branches(row_dend, k = 1),
         cluster_columns = FALSE,
         show_heatmap_legend = FALSE,
