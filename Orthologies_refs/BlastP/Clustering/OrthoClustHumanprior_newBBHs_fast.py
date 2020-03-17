@@ -72,7 +72,7 @@ Trait_covs_dict = {trait_species[i]:trait_traits[i] for i in range(0, len(trait_
 #Print out initial files
 for spc in target_species:
     OrthoClust_df[spc] = pd.DataFrame(columns=finalnames)
-    OrthoClust_df[spc].to_csv(out_file + spc + "/" + spc + ".pep.OrthoClustHumanprior_newBBH_fast.gz", sep = "\t", index=False)
+    OrthoClust_df[spc].to_csv(out_file + spc + "/" + spc + ".pep.OrthoClustHumanprior_newBBH_fast_fast.gz", sep = "\t", index=False)
 
 
 """
@@ -111,36 +111,41 @@ ortho_df, column_names, omas, used_genes):
     for index, row in all_species_dfs.iterrows():
         #candidate clusters to select the longest one
         cand_clusters = {}
-        #current genes to select the ones not to take into account (STRICT ANALYSIS AGAINST DUPLICATIONS)
-        current_genes = set()
-        cand_clusters[row['Query']] = []
-        current_genes.add(row['Query'])
-        count+=1
-        print(count)
-        #look for the rest of clusters deriving from it
-        for colname in column_names:
-            if isNaN(row[colname]):
-                break
-            else:
-                #curr_species = select_current_species(Species_tags, row[colname])
-                mask = np.in1d(all_species_dfs['Query'].values, [row[colname]])
-                target_species = all_species_dfs[mask]
-                #target_species = all_species_dfs[all_species_dfs['Query'] == row[colname]]
-                cand_clusters, current_genes = filter_row_as_candidate_cluster(target_species, cand_clusters,
-                current_genes)
-                current_genes.add(row[colname])
-                cand_clusters[row['Query']].append(row[colname])
-        #IF ORTHO CLUSTER IS an OMA group
-        cand_clusters[row['Query']] = set(cand_clusters[row['Query']])
-        if any(val in list(used_genes) for val in list(current_genes)):
-            pass
+        if row['Query'] in used_genes:
+            continue
         else:
-            max_length, max_key, curr_species = GetMaxFlox(cand_clusters, Trait_covs, Species_tags)
-            used_list = [max_key] + list(cand_clusters[max_key])
-            append_out_row_pandas_format(cand_clusters,
-            ortho_df[curr_species], max_key, out_file + curr_species + "/" + curr_species + ".pep.OrthoClustHumanprior_newBBH_fast.gz")
-        for value in list(current_genes):
-            used_genes.add(value)
+            #current genes to select the ones not to take into account (STRICT ANALYSIS AGAINST DUPLICATIONS)
+            current_genes = set()
+            cand_clusters[row['Query']] = []
+            current_genes.add(row['Query'])
+            count+=1
+            print(count)
+            #look for the rest of clusters deriving from it
+            for colname in column_names:
+                if row[colname] in used_genes:
+                    continue
+                elif isNaN(row[colname]):
+                    break
+                else:
+                    #curr_species = select_current_species(Species_tags, row[colname])
+                    mask = np.in1d(all_species_dfs['Query'].values, [row[colname]])
+                    target_species = all_species_dfs[mask]
+                    #target_species = all_species_dfs[all_species_dfs['Query'] == row[colname]]
+                    cand_clusters, current_genes = filter_row_as_candidate_cluster(target_species, cand_clusters,
+                    current_genes)
+                    current_genes.add(row[colname])
+                    cand_clusters[row['Query']].append(row[colname])
+            #IF ORTHO CLUSTER IS an OMA group
+            cand_clusters[row['Query']] = set(cand_clusters[row['Query']])
+            if any(val in list(used_genes) for val in list(current_genes)):
+                pass
+            else:
+                max_length, max_key, curr_species = GetMaxFlox(cand_clusters, Trait_covs, Species_tags)
+                used_list = [max_key] + list(cand_clusters[max_key])
+                append_out_row_pandas_format(cand_clusters,
+                ortho_df[curr_species], max_key, out_file + curr_species + "/" + curr_species + ".pep.OrthoClustHumanprior_newBBH_fast_fast.gz")
+            for value in list(current_genes):
+                used_genes.add(value)
     return ortho_df, omas
 
 

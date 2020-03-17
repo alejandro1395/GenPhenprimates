@@ -26,13 +26,13 @@ module purge
 module load gcc/4.9.3-gold
 module load PYTHON/3.6.3
 
-python ${SRC}OrthoClustHumanprior_newBBHs_fast.py ${INDIR} \
+python ${SRC}OrthoClustHumanprior_newBBHsLAX_fast.py ${INDIR} \
 ${SPECIES_IDs}summary_species.txt \
 ${TRAITS} \
-${OUTDIR}" > ${OUTDIR}qu/all_species.pep.OrthoClustHumanprior_newBBHs_fast.sh
-jobname=$(echo ${OUTDIR}qu/all_species.pep.OrthoClustHumanprior_newBBHs_fast.sh)
+${OUTDIR}" > ${OUTDIR}qu/all_species.pep.OrthoClustHumanprior_newBBHsLAX_fast.sh
+jobname=$(echo ${OUTDIR}qu/all_species.pep.OrthoClustHumanprior_newBBHsLAX_fast.sh)
 chmod 755 $jobname
 
 #SUBMISSION TO CLUSTER
-/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}out/all_species.pep.OrthoClustHumanprior_newBBHs_fast.out \
--e ${OUTDIR}out/all_species.pep.OrthoClustHumanprior_newBBHs_fast.err -n Clustering -u 1 -t 1 -w 1-23:59:00 -r lowprio
+/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}out/all_species.pep.OrthoClustHumanprior_newBBHsLAX_fast.out \
+-e ${OUTDIR}out/all_species.pep.OrthoClustHumanprior_newBBHsLAX_fast.err -n Clustering -u 1 -t 1 -w 23:59:00

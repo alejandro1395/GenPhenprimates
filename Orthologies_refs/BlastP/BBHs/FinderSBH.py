@@ -80,7 +80,7 @@ def parse_cluster_file(clusters_file, clusters_dict):
             if line.startswith(">") and not id:
                 continue
             elif line.startswith(">"):
-                clusters_dict[id] = clustered
+                clusters_dict[representative] = clustered
                 id = ""
                 clustered = []
             else:
@@ -89,9 +89,8 @@ def parse_cluster_file(clusters_file, clusters_dict):
                     representative = id
                 else:
                     clustered.append(id)
-        clusters_dict[id] = clustered
+        clusters_dict[representative] = clustered
     return clusters_dict
-
 
 
 """
