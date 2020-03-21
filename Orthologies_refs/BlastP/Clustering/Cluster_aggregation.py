@@ -302,7 +302,7 @@ orthologous groups
 
 def print_final_output_for_clusters(last_clusters, ortho_DB, species_tag, out_file, column1):
     for list_ortho in last_clusters:
-        final_spc = select_current_species(species_tag, list_ortho[0], column1)
+        final_spc = select_current_value(species_tag, list_ortho[0], column1)
         append_out_row_pandas_format(list_ortho,
         ortho_DB[final_spc], out_file + final_spc + "/" + final_spc + ".pep.ClusterAggregated_fast.gz")
 
@@ -318,4 +318,4 @@ concatenated_df = concatenate_into_single_df(species_dfs)
 final_clusters = create_clusters_from_rows_in_BBH_data(concatenated_df,
 OrthoClust_df, colnames, OMAs_df, used_genes, final_clusters)
 
-print_final_output_for_clusters(final_clusters, OrthoClust_df, Species_tags, out_file, column1)
+print_final_output_for_clusters(final_clusters, OrthoClust_df, Species_tag_dict, out_file, column1)

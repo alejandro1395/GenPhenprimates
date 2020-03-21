@@ -38,6 +38,7 @@ query_species = ""
 ortholog_dict = {}
 species_dfs = []
 used_genes = set()
+final_clusters = []
 column1 = "Tag"
 column2 = "SpeciesBroad"
 
@@ -72,7 +73,9 @@ Trait_covs_dict = {trait_species[i]:trait_traits[i] for i in range(0, len(trait_
 #Print out initial files
 for spc in target_species:
     OrthoClust_df[spc] = pd.DataFrame(columns=finalnames)
-    OrthoClust_df[spc].to_csv(out_file + spc + "/" + spc + ".pep.OrthoClustHumanprior_newBBH_fast_fast.gz", sep = "\t", index=False)
+    OrthoClust_df[spc].to_csv(out_file + spc + "/" + spc + "prueba", sep = "\t", index=False)
+
+
 
 
 """
@@ -143,7 +146,7 @@ ortho_df, column_names, omas, used_genes):
                 max_length, max_key, curr_species = GetMaxFlox(cand_clusters, Trait_covs, Species_tags)
                 used_list = [max_key] + list(cand_clusters[max_key])
                 append_out_row_pandas_format(cand_clusters,
-                ortho_df[curr_species], max_key, out_file + curr_species + "/" + curr_species + ".pep.OrthoClustHumanprior_newBBH_fast_fast.gz")
+                ortho_df[curr_species], max_key, out_file + curr_species + "/" + curr_species + "prueba")
             for value in list(current_genes):
                 used_genes.add(value)
     return ortho_df, omas
