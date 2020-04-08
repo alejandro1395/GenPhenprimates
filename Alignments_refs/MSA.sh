@@ -24,7 +24,7 @@ module load gcc/4.9.3-gold
 module load PYTHON/3.6.3
 
 gunzip -c ${filepath} | ${BIN}muscle3.8.31_i86linux64 -in - \
--clwout ${OUTDIR}Prot_alignments/${species_name}/${species_name}.${gene_name}.pep.aln" > ${OUTDIR}Prot_alignments/qu/${species_name}.${gene_name}.pep.sh
+-clwstrictout ${OUTDIR}Prot_alignments/${species_name}/${species_name}.${gene_name}.pep.aln" > ${OUTDIR}Prot_alignments/qu/${species_name}.${gene_name}.pep.sh
 jobname=$(echo ${OUTDIR}Prot_alignments/qu/${species_name}.${gene_name}.pep.sh)
 chmod 755 $jobname
 
