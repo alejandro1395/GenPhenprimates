@@ -30,6 +30,6 @@ jobname=$(echo ${OUTDIR}Prot_alignments_qual/qu/${species_name}.${gene_name}.tri
 chmod 755 $jobname
 
 #SUBMISSION TO CLUSTER
-/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}out/${species_name}.${gene_name}.trimAl_spc_info.out \
--e ${OUTDIR}out/${species_name}.${gene_name}.trimAl_spc_info.err -n ${species_name}.${gene_name} -u 1 -t 1 -w 00:05:00
+/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}Prot_alignments_qual/out/${species_name}.${gene_name}.trimAl_spc_info.out \
+-e ${OUTDIR}Prot_alignments_qual/out/${species_name}.${gene_name}.trimAl_spc_info.err -n ${species_name}.${gene_name} -u 1 -t 1 -w 00:05:00
 done
