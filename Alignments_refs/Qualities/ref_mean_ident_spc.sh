@@ -11,9 +11,6 @@ BIN=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/bin/trimAl/sourc
 INDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/results/Alignments_refs/Prot_alignments/
 OUTDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/results/Alignments_refs/
 SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Alignments_refs/Qualities/
-mkdir -p ${OUTDIR}Prot_alignments_qual/
-mkdir -p ${OUTDIR}Prot_alignments_qual/qu/
-mkdir -p ${OUTDIR}Prot_alignments_qual/out/
 mkdir -p ${OUTDIR}Prot_alignments_qual/summary_statistics/
 
 echo "#!/bin/bash
@@ -21,12 +18,15 @@ module purge
 module load gcc/4.9.3-gold
 module load PYTHON/3.6.3
 
-python ${SRC}total_mean_ident_spc.py ${OUTDIR}Prot_alignments_qual \
+for filepath in $(ls ${INDIR}*};
+do species_name=$(echo $filepath | rev | cut -d'/' -f1 | rev | cut -d \. -f 1)
+mkdir -p ${OUTDIR}Prot_alignments_qual/summary_statistics/${species_name}
+python ${SRC}ref_mean_ident_spc.py ${OUTDIR}Prot_alignments_qual \
 ${SPECIES_IDs}summary_species.txt \
-${OUTDIR}Prot_alignments_qual/summary_statistics/"> ${OUTDIR}Prot_alignments_qual/qu/total_mean_ident_spc.sh
-jobname=$(echo ${OUTDIR}Prot_alignments_qual/qu/total_mean_ident_spc.sh)
+${OUTDIR}Prot_alignments_qual/summary_statistics/${species_name}"> ${OUTDIR}Prot_alignments_qual/qu/${species_name}_mean_ident_spc.sh
+jobname=$(echo ${OUTDIR}Prot_alignments_qual/qu//${species_name}_mean_ident_spc.sh)
 chmod 755 $jobname
 
 #SUBMISSION TO CLUSTER
-/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}Prot_alignments_qual/out/total_mean_ident_spc.out \
--e ${OUTDIR}Prot_alignments_qual/out/total_mean_ident_spc.err -n total_mean_ident -u 1 -t 1 -w 03:00:00
+/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}Prot_alignments_qual/out/${species_name}_mean_ident_spc.out \
+-e ${OUTDIR}Prot_alignments_qual/out/${species_name}_mean_ident_spc.err -n ${species_name} -u 1 -t 1 -w 03:00:00

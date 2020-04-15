@@ -41,19 +41,12 @@ colnames = ['Target{}'.format(num) for num in range(1, len(Species_tags))]
 finalnames = ['Query'] + colnames
 
 #DICT SPECIES IDENTITIES
-Species_ident_dict = {}
-Species_mean_dict = {}
-target_species = Species_tags['Species'].to_list()
-for i in range(0, len(target_species)):
-    Species_ident_dict[target_species[i]] = {}
-    Species_mean_dict[target_species[i]] = []
-    for j in range(0, len(target_species)):
-        Species_ident_dict[target_species[i]][target_species[j]] = []
-
-Genes_mean_ident = []
+Genes_cumulative_length = []
+Genes_cumulative_gap = []
 
 #DICT TAG IDENTITIES
 tag_species = Species_tags['Tag'].to_list()
+target_species = Species_tags['Species'].to_list()
 Species_tag_dict = {tag_species[i]:target_species[i] for i in range(0, len(tag_species))}
 
 """
@@ -123,40 +116,19 @@ alignments_count = 0
 species = [e for e in dirs if e not in ('qu', 'out')]
 for ref in species:
     for file in os.listdir(trimals_path+"/"+ref):
-        if file.endswith("SpeciesIdentities"):
+        if file.endswith("SpeciesGaps"):
             with open(trimals_path+"/"+ref+"/"+file, 'r') as in_fh:
                 species_count = 0
-                alignments_count += 1
-                print(alignments_count)
+                start_info = False
                 for line in in_fh:
                     line = line.rstrip()
                     fields = line.split("\t")
-                    if line.startswith("#Mean Percentage of identity:"):
-                        gene_ident = line.split(" ")[-1]
-                        Genes_mean_ident.append(float(gene_ident))
-                    elif line.startswith("#Percentage of identity matrix:"):
-                        line_new = next(in_fh).rstrip()
-                        used_species = []
-                        while (any(line_new.startswith(tag) for tag in tag_species)):
-                            new_fields = line_new.split("\t")
-                            curr_species = select_current_value(Species_tag_dict, new_fields[0], column1)
-                            used_species.append(curr_species)
-                            species_count+=1
-                            if len(used_species) == 1:
-                                pass
-                            else:
-                                #Here we store the identity information for eahc pair of species twice
-                                #PAIRWISE GLOBAL SPECIES INDENTITIES
-                                for count in range(0, len(used_species)):
-                                    Species_ident_dict[curr_species][used_species[count]].append(float(new_fields[count+1].rstrip()))
-                                    Species_ident_dict[used_species[count]][curr_species].append(float(new_fields[count+1].rstrip()))
-                            line_new = next(in_fh).rstrip()
-                    elif line.startswith("#Percentage of identity with most similar sequence:"):
-                        #FILL DISTRIBUTION FOR EACH SPECIES IN EACH ALIGNMENT
-                        for spc1 in Species_ident_dict:
-                            Species_mean_dict[spc1].append(array([Species_ident_dict[spc1][spc2][-1] for spc2 in Species_ident_dict[spc1]
-                            if spc1 != spc2 and Species_ident_dict[spc1][spc2]]).mean())
-                        continue
+                    if start_info:
+                        new_fields = line.split('\t')
+                        Genes_cumulative_length.append(float(new_fields[6]))
+                        Genes_cumulative_gap.append(float(new_fields[10]))
+                    if line.startswith("+"):
+                        start_info = True
 
 """
 #PRINT WHOLE VALUES FOR DISTRIBUTIONS
@@ -165,8 +137,9 @@ distributions.to_csv(out_path+"gene_distr_mean_ident_spc", sep = "\t", index=Fal
 """
 
 #PRINT WHOLE VALUES FOR GENE DISTRIBUTIONS#create new df
-distributions_gene = pd.DataFrame({"Genes_mean_ident":Genes_mean_ident})
-distributions_gene.to_csv(out_path+"gene_distr_mean_ident", sep = "\t", index=False)
+distributions_gene = pd.DataFrame({"Genes_cumulative_length":Genes_cumulative_length,
+"Genes_cumulative_gap":Genes_cumulative_gap})
+distributions_gene.to_csv(out_path+"gene_distr_mean_gap", sep = "\t", index=False)
 
 """
 #CALCULATE MEANS FOR ALL PAIR-SPECIES IDENTITIES
