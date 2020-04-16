@@ -21,13 +21,15 @@ module purge
 module load gcc/4.9.3-gold
 module load PYTHON/3.6.3
 
-python ${SRC}ref_mean_ident_spc.py ${OUTDIR}Prot_alignments_qual/${species_name} \
+python ${SRC}ref_mean_gap_spc.py ${OUTDIR}Prot_alignments_qual/${species_name} \
 ${SPECIES_IDs}summary_species.txt \
-${OUTDIR}Prot_alignments_qual/summary_statistics/${species_name}"> ${OUTDIR}Prot_alignments_qual/qu/${species_name}_mean_ident_spc.sh
-jobname=$(echo ${OUTDIR}Prot_alignments_qual/qu/${species_name}_mean_ident_spc.sh)
+${OUTDIR}Prot_alignments_qual/summary_statistics/${species_name}"> ${OUTDIR}Prot_alignments_qual/qu/${species_name}_mean_gap_spc.sh
+jobname=$(echo ${OUTDIR}Prot_alignments_qual/qu/${species_name}_mean_gap_spc.sh)
 chmod 755 $jobname
 
 #SUBMISSION TO CLUSTER
-/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}Prot_alignments_qual/out/${species_name}_mean_ident_spc.out \
--e ${OUTDIR}Prot_alignments_qual/out/${species_name}_mean_ident_spc.err -n ${species_name} -u 1 -t 1 -w 03:00:00
+/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}Prot_alignments_qual/out/${species_name}_mean_gap_spc.out \
+-e ${OUTDIR}Prot_alignments_qual/out/${species_name}_mean_gap_spc.err -n ${species_name} -u 1 -t 1 -w 03:00:00
 done
+
+
