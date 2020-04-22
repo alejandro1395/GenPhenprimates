@@ -1,3 +1,4 @@
+
 #!/usr/bin/bash
 
 module purge
@@ -5,33 +6,23 @@ module load gcc/4.9.3-gold
 module load PYTHON/3.6.3
 
 #We keep the species names for each one of the primates used for annotation from their path
-INDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/results/BLAST_in/Query/
-OUTDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/results/BLAST_in/
-SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Orthologies_refs/BlastP/
-mkdir -p ${OUTDIR}nrDB
-mkdir -p ${OUTDIR}nrDB/qu
-mkdir -p ${OUTDIR}nrDB/out
+INDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BLAST_in/
+OUTDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/
+SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Orthologies_human_driven_refs/BlastP/
+mkdir -p ${OUTDIR}BLAST_nrDB
+mkdir -p ${OUTDIR}BLAST_nrDB/qu
+mkdir -p ${OUTDIR}BLAST_nrDB/out
 
-#loop for concatenating all reference species information
-if [ -f ${OUTDIR}nrDB/allspeciesDB.pep.gz ] ; then
-    rm ${OUTDIR}nrDB/allspeciesDB.pep.gz
+#Loop for human genes
+for filepath in $(ls ${INDIR});
+do gene_name=$(echo $filepath | rev | cut -d'/' -f1 | rev | cut -d \. -f 1)
+echo $gene_name
+mkdir -p ${OUTDIR}BLAST_nrDB/${gene_name}
+#loop for species;
+tar tzf ${INDIR}${gene_name}/${gene_name}.tar.gz | while IFS= read -r f ; do 
+if [[ $f = *.gz ]] ;
+   then echo ">>> Processing file $f"
+   tar Oxzf ${INDIR}${gene_name}/${gene_name}.tar.gz "$f" | cat - >> ${OUTDIR}BLAST_nrDB/${gene_name}/allspeciesDB.pep.fa.gz;
 fi
-touch ${OUTDIR}nrDB/allspeciesDB.pep.gz
-for filepath in $(ls ${INDIR}*_*/*.pep.*);
-do species_name=$(echo $filepath | rev | cut -d'/' -f1 | rev | cut -d \. -f 1)
-cat $filepath >> ${OUTDIR}nrDB/allspeciesDB.pep.gz
 done
-
-echo "#!/bin/bash
-module purge
-module load gcc/4.9.3-gold
-module load PYTHON/3.6.3
-
-python ${SRC}CreateTargetDBnr.py ${OUTDIR}nrDB/allspeciesDB.pep.gz ${OUTDIR}nrDB/allspeciesDBnr.pep.gz" > ${OUTDIR}nrDB/qu/allspeciesDBnr.pep.sh
-jobname=$(echo ${OUTDIR}nrDB/qu/allspeciesDBnr.pep.sh)
-chmod 755 $jobname
-
-#SUBMISSION TO CLUSTER
-/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${OUTDIR}nrDB/out/allspeciesDBnr.pep.out \
--e ${OUTDIR}nrDB/qu/allspeciesDBnr.pep.err -n merging -u 1 -t 1 -w 00:05:00
-#done
+done

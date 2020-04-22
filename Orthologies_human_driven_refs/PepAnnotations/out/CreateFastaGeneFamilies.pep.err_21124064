@@ -1,0 +1,8 @@
+remove PYTHON/3.6.3 (PATH, MANPATH, LD_LIBRARY_PATH)
+remove gcc/4.9.3-gold (PATH, MANPATH, LD_LIBRARY_PATH)
+load gcc/4.9.3-gold (PATH, MANPATH, LD_LIBRARY_PATH)
+load PYTHON/3.6.3 (PATH, MANPATH, LD_LIBRARY_PATH)
+Traceback (most recent call last):
+  File "/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Orthologies_human_driven_refs/PepAnnotations/CreateFastaGeneFamilies.py", line 147, in <module>
+    os.mkdir(out_path+gene+"/"+primate)
+OSError: [Errno 122] Disk quota exceeded: '/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BLAST_in/PGM2L1/Lophocebus_aterrimus'

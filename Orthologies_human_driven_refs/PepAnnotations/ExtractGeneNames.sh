@@ -16,5 +16,5 @@ echo $filepath processed;
 done
 
 #FOR PROPITHECUS AND CARLITO
-#zcat Carlito_syrichta.CDS.gff.gz | grep gene | tr ";" "\t" | awk '{printf "%s",$1; for (i=1;i<=NF;i++) { if ($i ~ /gene/) { printf " %s",$i; }  } print ""  }'
-#cat Carlito_syrichta.ref_genes_raw.tsv | tr -d "ID=" | tr -d "gene=" | tr " " "\t" |
+#zcat Carlito_syrichta.CDS.gff.gz | grep gene | tr ";" "\t" | awk '{printf "%s",$9; for (i=1;i<=NF;i++) { if ($i ~ /gene/) { printf " %s",$i; }  } print ""  }'
+#cat Carlito_syrichta.ref_genes_raw.tsv | tr -d "ID=" | tr -d "gene=" | tr " " "\t" | sort | uniq
