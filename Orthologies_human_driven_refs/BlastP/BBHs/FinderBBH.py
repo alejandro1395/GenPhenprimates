@@ -21,7 +21,6 @@ Here we create the function for checking the input parameters and saving
 them in different variables, error if the usage is not good
 """
 
-
 if len(sys.argv) == 5:
     SBH_path = sys.argv[1]
     selected_species = sys.argv[2]
@@ -58,11 +57,12 @@ for each species into an allspecies Best Hits dataframe
 """
 
 def concatenate_SBH_all_species_into_dict(path, all_species_dfs):
-    dirs = os.listdir(path)
-    species = [e for e in dirs if e not in ('qu', 'out')]
-    for folder in species:
-        path_to_pandas = path + folder + "/" + folder + ".pep.SBH.gz"
-        all_species_dfs[folder] = pd.read_csv(path_to_pandas, index_col=None, sep ="\t")
+    files = os.walk(path)
+    for file_in in files:
+        for spc in file_in[2]:
+            print(spc)
+            path_to_pandas = path + spc
+            all_species_dfs[spc.split(".")[0]] = pd.read_csv(path_to_pandas, index_col=None, sep ="\t")
     return all_species_dfs
 
 

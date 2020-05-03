@@ -14,6 +14,7 @@ from scipy import mean
 import re
 import os
 import gzip
+import fileinput
 
 
 """
@@ -21,13 +22,12 @@ Here we create the function for checking the input parameters and saving
 them in different variables, error if the usage is not good
 """
 
-if len(sys.argv) == 5:
-    blast_file = sys.argv[1]
-    clust_file = sys.argv[2]
-    tags_file = sys.argv[3]
-    out_file = sys.argv[4]
+if len(sys.argv) == 4:
+    tags_file = sys.argv[1]
+    ref_species = sys.argv[2]
+    out_file = sys.argv[3]
 else:
-    sys.exit("The usage shoud be: ./FinderSBH.py in_file output_file")
+    sys.exit("The usage shoud be: ./FinderSBH.py in_file tag_file output_file")
 
 #VARIABLES
 #!/usr/bin/env python3
@@ -58,10 +58,10 @@ Store in a dictionary all target species so as to keep a counter
 for unique species as best hits
 """
 
-def store_target_species_count_in_dict(Species_df, Blast_file):
+def store_target_species_count_in_dict(Species_df, reference):
     target_species = Species_df['Species'].to_list()
-    ref_species = Blast_file.split("/")[-1].split(".")[0]
-    target_species.remove(ref_species)
+    print(reference)
+    target_species.remove(reference)
     species_counter = {name:0 for name in target_species}
     return species_counter
 
@@ -149,38 +149,37 @@ def append_out_BBHs_pandas_format(sbh_dict, sbh_df, query):
 MAIN
 """
 
-species_counter = store_target_species_count_in_dict(Species_tags, blast_file)
+species_counter = store_target_species_count_in_dict(Species_tags, ref_species)
 
-cluster_dict = parse_cluster_file(clust_file, cluster_dict)
+#cluster_dict = parse_cluster_file(clust_file, cluster_dict)
 
 count = 0
-with gzip.open(blast_file, "rt") as in_fh:
-    for line in in_fh:
-        line = line.rstrip()
-        if line.startswith("Query=") and query_species == "":
-            query_fields = line[7:].split(" ")
-            query_species = "_".join(query_fields[0:1])
-            SBH_dict[query_species] = []
-        elif line.startswith("Query="):
-            SBH_df = append_out_BBHs_pandas_format(SBH_dict, SBH_df,
-            query_species)
-            query_fields = line[7:].split(" ")
-            query_species = "_".join(query_fields[0:1])
-            SBH_dict[query_species] = []
-            species_counter = {k:0 for k in species_counter}
-        elif line.startswith("Sequences producing significant alignments"):
-            next(in_fh)
+in_fh = iter(sys.stdin)
+for line in in_fh:
+    line = line.rstrip()
+    if line.startswith("Query=") and query_species == "":
+        query_fields = line[7:].split(" ")
+        query_species = "_".join(query_fields[0:1])
+        SBH_dict[query_species] = []
+    elif line.startswith("Query="):
+        SBH_df = append_out_BBHs_pandas_format(SBH_dict, SBH_df,
+        query_species)
+        query_fields = line[7:].split(" ")
+        query_species = "_".join(query_fields[0:1])
+        SBH_dict[query_species] = []
+        species_counter = {k:0 for k in species_counter}
+    elif line.startswith("Sequences producing significant alignments"):
+        next(in_fh)
+        line_new = next(in_fh).rstrip()
+        while (any(letter.isalnum() for letter in line_new)):
+            ID_fields = line_new.split(" ")
+            ID = "_".join(ID_fields[2:3])
+            species_counter, SBH_dict = include_only_best_hit_foreach_species_target(ID, SBH_dict,
+            query_species, species_counter)
             line_new = next(in_fh).rstrip()
-            while (any(letter.isalnum() for letter in line_new)):
-                ID_fields = line_new.split(" ")
-                ID = "_".join(ID_fields[2:3])
-                species_counter, SBH_dict = check_all_species_in_cluster(ID,
-                query_species, cluster_dict, SBH_dict, species_counter)
-                line_new = next(in_fh).rstrip()
 
-    #REPEAT THIS AFTER LOOP`FOR LAST HOMOLOG ENTRY
-    SBH_df = append_out_BBHs_pandas_format(SBH_dict, SBH_df,
-    query_species)
-
+#REPEAT THIS AFTER LOOP`FOR LAST HOMOLOG ENTRY
+SBH_df = append_out_BBHs_pandas_format(SBH_dict, SBH_df,
+query_species)
 #Print_SBHs_in_Pandas_format(SBH_dict, SBH_df, out_file)
 SBH_df.to_csv(out_file, sep = "\t", index=False)

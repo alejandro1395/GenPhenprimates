@@ -145,20 +145,23 @@ def make_tarfile(output_filename, source_dir):
 #Now print the created files
 
 for gene in human_genes:
-    if not os.path.exists(out_path+gene):
-        os.mkdir(out_path+gene)
-    for primate in human_genes[gene]:
-        if not os.path.exists(out_path+gene+"/"+primate):
-            os.mkdir(out_path+gene+"/"+primate)
-        for file in os.listdir(primates_path+primate):
-            if file.endswith("pep.fa.gz"):
-                with gzip.open(out_path+gene+"/"+primate+"/"+ primate+".pep.fa.gz", 'wt') as out_fh:
-                    spc_gene_dict = {}
-                    for value in human_genes[gene][primate]:
-                        gene_id, sequence = select_sequence_from_species_fasta(primates_path+primate+"/"+file, value,
-                        spc_gene_dict, primate)
-                        if gene_id != "null" and sequence != "null":
-                            print(gene_id, file=out_fh)
-                            print(sequence, file=out_fh)
-    make_tarfile(out_path+gene+"/"+gene+".tar.gz", out_path+gene+"/")
-    os.system('rm -rf '+out_path+gene+'/*/')
+    if gene == "A1BG":
+        if not os.path.exists(out_path+gene):
+            os.mkdir(out_path+gene)
+        for primate in human_genes[gene]:
+            if not os.path.exists(out_path+gene+"/"+primate):
+                os.mkdir(out_path+gene+"/"+primate)
+            for file in os.listdir(primates_path+primate):
+                if file.endswith("pep.fa.gz"):
+                    with gzip.open(out_path+gene+"/"+primate+"/"+ primate+".pep.fa.gz", 'wt') as out_fh:
+                        spc_gene_dict = {}
+                        for value in human_genes[gene][primate]:
+                            gene_id, sequence = select_sequence_from_species_fasta(primates_path+primate+"/"+file, value,
+                            spc_gene_dict, primate)
+                            if gene_id != "null" and sequence != "null":
+                                print(gene_id, file=out_fh)
+                                print(sequence, file=out_fh)
+        make_tarfile(out_path+gene+"/"+gene+".tar.gz", out_path+gene+"/")
+        os.system('rm -rf '+out_path+gene+'/*/')
+    else:
+        continue

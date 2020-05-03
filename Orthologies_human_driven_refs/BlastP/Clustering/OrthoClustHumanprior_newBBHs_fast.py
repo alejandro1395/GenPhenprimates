@@ -57,8 +57,8 @@ Trait_covs = pd.read_csv(traits_file, sep='\t', low_memory=False)#panda creation
 
 #OUTPUT FOLDERS FOR EACH SPECIES
 OrthoClust_df = {}
-OMAs_df = pd.DataFrame(columns=finalnames)
-OMAs_df.to_csv(out_file + "OMAs/all_species.pep.OMAs.gz", sep = "\t", index=False)
+#OMAs_df = pd.DataFrame(columns=finalnames)
+#OMAs_df.to_csv(out_file + "OMAs/all_species.pep.OMAs.gz", sep = "\t", index=False)
 
 #DICT SPECIES TAGS
 target_species = Species_tags['Species'].to_list()
@@ -73,9 +73,7 @@ Trait_covs_dict = {trait_species[i]:trait_traits[i] for i in range(0, len(trait_
 #Print out initial files
 for spc in target_species:
     OrthoClust_df[spc] = pd.DataFrame(columns=finalnames)
-    OrthoClust_df[spc].to_csv(out_file + spc + "/" + spc + "prueba", sep = "\t", index=False)
-
-
+    OrthoClust_df[spc].to_csv(out_file + spc + ".clust.pep.gz", sep = "\t", index=False)
 
 
 """
@@ -88,13 +86,12 @@ for each species into an allspecies Best Hits dataframe
 """
 
 def concatenate_BBH_all_species_into_dict(path, all_species_dfs):
-    dirs = os.listdir(path)
-    species = [e for e in dirs if e not in ('qu', 'out')]
-    for folder in species:
-        path_to_pandas = path + folder + "/" + folder + ".pep.BBH.gz"
-        df_species = pd.read_csv(path_to_pandas, index_col=None,
-        sep ="\t", low_memory=False)
-        all_species_dfs.append(df_species)
+    files = os.walk(path)
+    for file_in in files:
+        for spc in file_in[2]:
+            path_to_pandas = path + spc
+            current_df = pd.read_csv(path_to_pandas, index_col=None, sep ="\t")
+            all_species_dfs.append(current_df)
     return all_species_dfs
 
 def concatenate_into_single_df(all_species_dfs):
@@ -109,7 +106,7 @@ many other functions used for computing clusters (HOGs-like and OMAs)
 """
 
 def create_clusters_from_rows_in_BBH_data(all_species_dfs,
-ortho_df, column_names, omas, used_genes):
+ortho_df, column_names, used_genes):
     count = 0
     for index, row in all_species_dfs.iterrows():
         #candidate clusters to select the longest one
@@ -125,9 +122,7 @@ ortho_df, column_names, omas, used_genes):
             print(count)
             #look for the rest of clusters deriving from it
             for colname in column_names:
-                if row[colname] in used_genes:
-                    continue
-                elif isNaN(row[colname]):
+                if isNaN(row[colname]):
                     break
                 else:
                     #curr_species = select_current_species(Species_tags, row[colname])
@@ -146,10 +141,10 @@ ortho_df, column_names, omas, used_genes):
                 max_length, max_key, curr_species = GetMaxFlox(cand_clusters, Trait_covs, Species_tags)
                 used_list = [max_key] + list(cand_clusters[max_key])
                 append_out_row_pandas_format(cand_clusters,
-                ortho_df[curr_species], max_key, out_file + curr_species + "/" + curr_species + "prueba")
+                ortho_df[curr_species], max_key, out_file + curr_species + ".clust.pep.gz")
             for value in list(current_genes):
                 used_genes.add(value)
-    return ortho_df, omas
+    return ortho_df
 
 
 
@@ -252,7 +247,7 @@ species_dfs = concatenate_BBH_all_species_into_dict(BBH_path, species_dfs)
 
 concatenated_df = concatenate_into_single_df(species_dfs)
 
-OrthoClust_df, OMAs_df = create_clusters_from_rows_in_BBH_data(concatenated_df,
-OrthoClust_df, colnames, OMAs_df, used_genes)
+OrthoClust_df = create_clusters_from_rows_in_BBH_data(concatenated_df,
+OrthoClust_df, colnames, used_genes)
 
 #print_final_output_for_OMAs_and_ref_groups(OMAs_df, OrthoClust_df, out_file)
