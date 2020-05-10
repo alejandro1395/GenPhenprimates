@@ -35,5 +35,5 @@ gunzip ${ARGUMENT1}
 input_file=$(echo $ARGUMENT1 | rev | cut -c 4- | rev)
 echo $input_file
 ${BIN} -in $input_file \
--gt 0.9 > ${OUTDIR}${dir_out}/${species_name}.filter1.pep.aln
+-gt 0.9 -out ${OUTDIR}${dir_out}/${species_name}.filter1.pep.aln
 gzip $input_file

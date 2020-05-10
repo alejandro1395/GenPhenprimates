@@ -15,7 +15,7 @@ module load BLAST+
 #Define PATH argument
 SPECIES_IDs=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/REFS/
 BIN=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/bin/trimAl/source/trimal
-INDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments/
+INDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/
 OUTDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_qual/
 SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Alignments_human_driven_refs/Qualities/
 TRAITS=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Phenomes/Primate_Traits/OUTPUT/TraitsPerSpecies.txt
@@ -33,6 +33,6 @@ species_name=$(echo $ARGUMENT1 | rev | cut -d'/' -f1 | rev | cut -d \. -f 1)
 gunzip ${ARGUMENT1}
 input_file=$(echo $ARGUMENT1 | rev | cut -c 4- | rev)
 echo $input_file
-${BIN} -in $input_file \
+${BIN} -in $ARGUMENT1 \
 -sident > ${OUTDIR}${dir_out}/${species_name}.SpeciesIdentities
-gzip $input_file
+#gzip $input_file

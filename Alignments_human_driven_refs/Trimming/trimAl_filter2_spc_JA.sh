@@ -27,8 +27,14 @@ echo $SLURM_ARRAY_TASK_ID
 echo $ARGUMENT1
 
 # EXECUTING PART
-dir_out=$(echo $(basename $(dirname $ARGUMENT1)))
+for i in {50..100..2}
+do dir_out=$(echo $(basename $(dirname $ARGUMENT1)))
 mkdir -p ${OUTDIR}${dir_out}
 species_name=$(echo $ARGUMENT1 | rev | cut -d'/' -f1 | rev | cut -d \. -f 1)
 ${BIN} -in $ARGUMENT1 \
--resoverlap 0.9 -seqoverlap 90 > ${OUTDIR}${dir_out}/${species_name}.filter2.pep.aln
+-resoverlap 0.90 -seqoverlap $i > ${OUTDIR}${dir_out}/${species_name}.filter2.${i}.pep.aln
+done
+cd ${OUTDIR}${dir_out}/
+tar cvzf ${species_name}.filter2.tar.gz ${species_name}.filter2.*.aln
+rm *.filter2.*.pep.aln
+cd .
