@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --array=1-15561
+#SBATCH --array=1-15671
 #SBATCH --job-name=AlignCodons
 #SBATCH --output=/dev/null
 #SBATCH --error=/dev/null

@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --array=1-15671
+#SBATCH --array=1-14
 #SBATCH --job-name=SortCDS
 #SBATCH --output=/dev/null
 #SBATCH --error=/dev/null
@@ -22,7 +22,7 @@ SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Genes_predic
 TRAITS=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Phenomes/Primate_Traits/OUTPUT/TraitsPerSpecies.txt
 
 # Define arguments in each task
-ARGUMENT1=`awk -v task_id=$SLURM_ARRAY_TASK_ID 'NR==task_id' ${SRC}SortSeq_input_JA.txt`
+ARGUMENT1=`awk -v task_id=1 'NR==8' ${SRC}SortSeq_repair_JA.txt`
 echo $SLURM_ARRAY_TASK_ID
 # Print info of the task
 echo $ARGUMENT1
@@ -40,8 +40,3 @@ ${SPECIES_IDs}summary_species.txt \
 ${SPECIES_IDs} \
 ${OUTDIR}${gene_name}/${species_name}.sorted.cds.fa.gz \
 ${OUTDIR}${gene_name}/${species_name}.sorted.pep.fa.gz
-#tar file
-cd ${OUTDIR}${gene_name}
-tar cvzf ${species_name}.tar.gz ${species_name}.sorted*
-cd .
-rm ${OUTDIR}${gene_name}/${species_name}.sorted*

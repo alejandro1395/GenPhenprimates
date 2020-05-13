@@ -23,12 +23,13 @@ them in different variables, error if the usage is not good
 """
 
 if len(sys.argv) == 7:
-    alignment_path = sys.argv[1]
-    pep_fasta_path = sys.argv[2]
+    input_path_cds = sys.argv[1]
+    input_path_pep = sys.argv[2]
     tags_file = sys.argv[3]
-    cds_fasta_path = sys.argv[4]
-    out_path_cds = sys.argv[5]
-    out_path_pep = sys.argv[6]
+    tree_names_path = sys.argv[4]
+    output_path_cds = sys.argv[5]
+    output_path_pep = sys.argv[6]
+
 else:
     sys.exit("The usage shoud be: ortho_path tags_file pep_fasta_path out_file")
 
@@ -36,6 +37,7 @@ else:
 column1 = "Tag"
 column2 = "SpeciesBroad"
 Species_tags = pd.read_csv(tags_file, sep='\t', low_memory=False)#panda creation
+Tree_names = pd.read_csv(tree_names_path, sep='\t', low_memory=False)#panda creation
 colnames = ['Target{}'.format(num) for num in range(1, len(Species_tags))]
 finalnames = ['Query'] + colnames
 
@@ -43,6 +45,14 @@ finalnames = ['Query'] + colnames
 target_species = Species_tags['Species'].to_list()
 tag_species = Species_tags['Tag'].to_list()
 Species_tag_dict = {tag_species[i]:target_species[i] for i in range(0, len(tag_species))}
+
+Genomes_names = Tree_names['Genomes_names'].to_list()
+Tree_names = Tree_names['Tree_names'].to_list()
+Tree_names_dict = {Genomes_names[i]:Tree_names[i] for i in range(0, len(Tree_names))}
+
+#species not tree info
+undesired_species = ["Rhinopithecus_strykeri"]
+
 """
 #Print out sorted species file
 finalnames = [Species_tag_dict[tag] for tag in Species_tag_dict]
@@ -64,7 +74,7 @@ def isNaN(string):
 Select current species from all species dataframes
 """
 
-def select_current_value(current_dict, name, col):
+def select_current_value(current_dict, name):
     sel_value = [current_dict[tag] for tag in current_dict if name.startswith(tag)][0]
     return sel_value
 
@@ -72,45 +82,29 @@ def select_current_value(current_dict, name, col):
 Function to select fasta from species file and store it in a dict format
 """
 
-def select_sequence_from_species_fasta(read_path, value):
-    spc_dict = {}
-    with gzip.open(read_path, 'rt') as f:
-        target_sequence = False
+def print_new_fasta_names_from_tree(read_path, out_path):
+    gene_dict = {}
+    skip = False
+    with gzip.open(read_path, 'rt') as f, gzip.open(out_path, "wt") as out_f:
         for line in f:
             line = line.rstrip()
-            if line.startswith(">"+value):
-                ident = line
-                spc_dict[ident] = ""
-                target_sequence = True
-            elif line.startswith(">") and target_sequence:
-                break
-            elif not line.startswith(">") and target_sequence:
-                spc_dict[ident] += line
-    return ident, spc_dict[ident]
+            if line.startswith(">"):
+                genome_species = select_current_value(Species_tag_dict, line[1:])
+                current_species = genome_species
+                if current_species in undesired_species:
+                    skip = True
+                    continue
+                else:
+                    tree_species = select_current_value(Tree_names_dict, genome_species)
+                    ident = ">"+tree_species
+                    print(ident, file=out_f)
+                    skip = False
+            elif not line.startswith(">") and not skip:
+                print(line, file=out_f)
 
 
 #MAIN
 #Create FASTA FILES
-used_species = []
-with open(alignment_path, "rt") as in_fh, gzip.open(out_path_cds, 'wt') as out_fh, \
-gzip.open(out_path_pep, 'wt') as out_fh2:
-    for line in in_fh:
-        spc_line = line.rstrip()
-        if (any(spc_line.startswith(tag) for tag in tag_species)):
-            new_fields = spc_line.split(" ")
-            curr_species = select_current_value(Species_tag_dict, new_fields[0], column1)
-            pep_path = pep_fasta_path
-            cds_path = cds_fasta_path + curr_species + "/" + curr_species + ".cds.fa.gz"
-            if curr_species not in used_species:
-                ident_pep, seq_pep = select_sequence_from_species_fasta(pep_path, new_fields[0])
-                print(ident_pep, file=out_fh2)
-                print(seq_pep, file=out_fh2)
-                id_spc = ident_pep.split(" ")[0][1:]
-                if id_spc.startswith("Propithecus_coquereli") or id_spc.startswith("Carlito_syrichta"):
-                    id_spc = id_spc[:-2]
-                print(id_spc)
-                ident_cds, seq_cds = select_sequence_from_species_fasta(cds_path, id_spc)
-                print(ident_cds)
-                print(ident_cds, file=out_fh)
-                print(seq_cds, file=out_fh)
-            used_species.append(curr_species)
+print_new_fasta_names_from_tree(input_path_cds, output_path_cds)
+
+print_new_fasta_names_from_tree(input_path_pep, output_path_pep)
