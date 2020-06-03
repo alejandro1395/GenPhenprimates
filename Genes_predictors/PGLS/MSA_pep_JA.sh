@@ -22,7 +22,7 @@ TRAITS=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Phenomes
 mkdir -p ${OUTDIR}
 
 # Define arguments in each task
-ARGUMENT1=`awk -v task_id=$SLURM_ARRAY_TASK_ID 'NR==task_id' ${SRC}SortSeq_input_JA.txt`
+ARGUMENT1=`awk -v task_id=1 'NR==task_id' ${SRC}SortSeq_repair_JA.txt`
 echo $SLURM_ARRAY_TASK_ID
 # Print info of the task
 echo $ARGUMENT1

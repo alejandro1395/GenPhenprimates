@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --array=1-14
+#SBATCH --array=1-19729%500
 #SBATCH --job-name=FinderSBH
 #SBATCH --output=/dev/null
 #SBATCH --error=/dev/null

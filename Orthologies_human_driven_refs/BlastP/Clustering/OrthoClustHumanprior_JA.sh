@@ -1,9 +1,9 @@
 #!/bin/bash
-#SBATCH --array=1-14
+#SBATCH --array=1-19729%500
 #SBATCH --job-name=OrthoClust
 #SBATCH --output=/dev/null
 #SBATCH --error=/dev/null
-#SBATCH --time=00:30:00
+#SBATCH --time=06:00:00
 
 #Define modules
 module purge
@@ -22,7 +22,7 @@ TRAITS=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Phenomes
 mkdir -p ${OUTDIR}
 
 # Define arguments in each task
-ARGUMENT1=`awk -v task_id=1 'NR==task_id' ${SRC}OrthoClustHumanprior_repair_JA.txt`
+ARGUMENT1=`awk -v task_id=$SLURM_ARRAY_TASK_ID 'NR==task_id' ${SRC}OrthoClustHumanprior_input_JA.txt`
 echo $SLURM_ARRAY_TASK_ID
 # Print info of the task
 echo $ARGUMENT1
@@ -30,7 +30,6 @@ echo $ARGUMENT1
 # EXECUTING PART
 gene_name=$(echo $ARGUMENT1 | rev | cut -d'/' -f1 | rev | cut -d \. -f 1)
 mkdir -p ${OUTDIR}${gene_name}
-tar tf ${INDIR}${gene_name}/${gene_name}.tar.gz
 tar xvzf ${INDIR}${gene_name}/${gene_name}.tar.gz --directory ${INDIR}${gene_name}/
 for filepath in $(ls ${INDIR}${gene_name}${INDIR}${gene_name}/*.gz);
 do species_name=$(echo $filepath | rev | cut -d'/' -f1 | rev | cut -d \. -f 1) 

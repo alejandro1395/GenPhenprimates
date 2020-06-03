@@ -14,7 +14,7 @@ mkdir -p ${OUTDIR}
 touch OrthoClustHumanprior_input_JA.txt
 
 #Loop for human genes
-for filepath in $(ls ${INDIR}*/*.gz);
+for filepath in $(ls ${INDIR}*/*tar.gz);
 do echo "$filepath">>OrthoClustHumanprior_input_JA.txt
 echo $filepath
 mkdir -p ${OUTDIR}${gene_name}

@@ -13,9 +13,9 @@ mkdir -p ${OUTDIR}
 #create variable file
 touch FinderBBH_input_JA.txt
 
+#genes
 #Loop for human genes
-for filepath in $(ls ${INDIR}*/*.gz);
+for filepath in $(ls ${INDIR}*/*tar.gz);
 do echo "$filepath">>FinderBBH_input_JA.txt
 echo $filepath
-mkdir -p ${OUTDIR}BLAST_nrDB/${gene_name}
 done

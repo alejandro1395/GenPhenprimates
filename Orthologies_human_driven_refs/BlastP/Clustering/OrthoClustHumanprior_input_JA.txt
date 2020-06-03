@@ -1184,7 +1184,6 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ATAT1/ATAT1.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ATCAY/ATCAY.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ATE1/ATE1.tar.gz
-/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/Ateles_fusciceps/Ateles_fusciceps.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ATF1/ATF1.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ATF2/ATF2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ATF3/ATF3.tar.gz
@@ -1276,6 +1275,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ATP5PD/ATP5PD.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ATP5PF/ATP5PF.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ATP5PO/ATP5PO.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ATP6AP1/ATP6AP1.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ATP6AP1L/ATP6AP1L.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ATP6AP2/ATP6AP2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ATP6V0A1/ATP6V0A1.tar.gz
@@ -3460,7 +3460,6 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/COLEC12/COLEC12.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/COLGALT1/COLGALT1.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/COLGALT2/COLGALT2.tar.gz
-/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/Colobus_guereza/Colobus_guereza.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/COLQ/COLQ.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/COMMD10/COMMD10.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/COMMD1/COMMD1.tar.gz
@@ -6072,7 +6071,6 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/GAL3ST2/GAL3ST2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/GAL3ST3/GAL3ST3.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/GAL3ST4/GAL3ST4.tar.gz
-/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/Galago_moholi/Galago_moholi.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/GALC/GALC.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/GALE/GALE.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/GAL/GAL.tar.gz
@@ -6814,6 +6812,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/GUK1/GUK1.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/GULP1/GULP1.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/GUSB/GUSB.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/GVQW2/GVQW2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/GXYLT1/GXYLT1.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/GXYLT2/GXYLT2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/GYG1/GYG1.tar.gz
@@ -9339,8 +9338,6 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/MAB21L2/MAB21L2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/MAB21L3/MAB21L3.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/MAB21L4/MAB21L4.tar.gz
-/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/Macaca_fascicularis/Macaca_fascicularis.tar.gz
-/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/Macaca_silenus/Macaca_silenus.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/MACC1/MACC1.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/MACF1/MACF1.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/MACO1/MACO1.tar.gz
@@ -10927,7 +10924,6 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/NOL9/NOL9.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/NOLC1/NOLC1.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/NOM1/NOM1.tar.gz
-/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/Nomascus_leucogenys/Nomascus_leucogenys.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/NOMO1/NOMO1.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/NOMO2/NOMO2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/NOMO3/NOMO3.tar.gz
@@ -11248,7 +11244,6 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/NXT2/NXT2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/NYAP1/NYAP1.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/NYAP2/NYAP2.tar.gz
-/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/Nycticebus_pygmaeus/Nycticebus_pygmaeus.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/NYNRIN/NYNRIN.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/NYX/NYX.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/OAF/OAF.tar.gz
@@ -11930,13 +11925,10 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PANK3/PANK3.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PANK4/PANK4.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PANO1/PANO1.tar.gz
-/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/Pan_paniscus/Pan_paniscus.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PANX1/PANX1.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PANX2/PANX2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PANX3/PANX3.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PAOX/PAOX.tar.gz
-/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/Papio_anubis/Papio_anubis.tar.gz
-/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/Papio_hamadryas/Papio_hamadryas.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PAPLN/PAPLN.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PAPOLA/PAPOLA.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PAPOLB/PAPOLB.tar.gz
@@ -12458,7 +12450,6 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PIK3R4/PIK3R4.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PIK3R5/PIK3R5.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PIKFYVE/PIKFYVE.tar.gz
-/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/Piliocolobus_tephrosceles/Piliocolobus_tephrosceles.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PILRA/PILRA.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PILRB/PILRB.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PIM1/PIM1.tar.gz
@@ -13154,7 +13145,6 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PROK2/PROK2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PROKR1/PROKR1.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PROKR2/PROKR2.tar.gz
-/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/Prolemur_simus/Prolemur_simus.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PROM1/PROM1.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PROM2/PROM2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PROP1/PROP1.tar.gz
@@ -13502,7 +13492,6 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PYCR3/PYCR3.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PYDC1/PYDC1.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PYDC2/PYDC2.tar.gz
-/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/Pygathrix_nemaeus/Pygathrix_nemaeus.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PYGB/PYGB.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PYGL/PYGL.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/PYGM/PYGM.tar.gz
@@ -14014,7 +14003,6 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/RHEBL1/RHEBL1.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/RHEB/RHEB.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/RHEX/RHEX.tar.gz
-/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/Rhinopithecus_roxellana/Rhinopithecus_roxellana.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/RHNO1/RHNO1.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/RHOA/RHOA.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/RHOB/RHOB.tar.gz
@@ -19726,3 +19714,16 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ZSWIM5/ZSWIM5.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ZSWIM6/ZSWIM6.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ZSWIM7/ZSWIM7.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ZSWIM8/ZSWIM8.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ZSWIM9/ZSWIM9.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ZUP1/ZUP1.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ZW10/ZW10.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ZWILCH/ZWILCH.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ZWINT/ZWINT.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ZXDA/ZXDA.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ZXDB/ZXDB.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ZXDC/ZXDC.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ZYG11A/ZYG11A.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ZYG11B/ZYG11B.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ZYX/ZYX.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BBHs/ZZEF1/ZZEF1.tar.gz

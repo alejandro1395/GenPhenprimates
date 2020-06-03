@@ -1,9 +1,9 @@
 #!/bin/bash
-#SBATCH --array=1-3
+#SBATCH --array=1-323
 #SBATCH --job-name=AlignClust
 #SBATCH --output=/dev/null
 #SBATCH --error=/dev/null
-#SBATCH --time=00:30:00
+#SBATCH --time=05:00:00
 
 #Define modules
 module purge
@@ -21,7 +21,7 @@ SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Alignments_h
 TRAITS=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Phenomes/Primate_Traits/OUTPUT/TraitsPerSpecies.txt
 
 # Define arguments in each task
-ARGUMENT1=`awk -v task_id=$SLURM_ARRAY_TASK_ID 'NR==task_id' ${SRC}MSA_repair_JA.txt`
+ARGUMENT1=`awk -v task_id=$SLURM_ARRAY_TASK_ID 'NR==task_id' ${SRC}MSA_create_input_JA.txt`
 echo $SLURM_ARRAY_TASK_ID
 # Print info of the task
 echo $ARGUMENT1

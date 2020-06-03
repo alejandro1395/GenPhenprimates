@@ -1,9 +1,9 @@
 #!/bin/bash
-#SBATCH --array=1-15671
+#SBATCH --array=1-323
 #SBATCH --job-name=AlignTrim
 #SBATCH --output=/dev/null
 #SBATCH --error=/dev/null
-#SBATCH --time=00:30:00
+#SBATCH --time=05:00:00
 
 #Define modules
 module purge
@@ -35,5 +35,5 @@ gunzip ${ARGUMENT1}
 input_file=$(echo $ARGUMENT1 | rev | cut -c 4- | rev)
 echo $input_file
 ${BIN} -in $input_file \
--gt 0.9 -out ${OUTDIR}${dir_out}/${species_name}.filter1.pep.aln
+-gt 0.9 -out ${OUTDIR}${dir_out}/${species_name}.filter1.pep.aln -colnumbering > ${OUTDIR}${dir_out}/${species_name}.filter1.ref_pos.txt
 gzip $input_file

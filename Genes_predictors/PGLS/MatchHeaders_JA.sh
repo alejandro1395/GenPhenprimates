@@ -20,7 +20,7 @@ SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Genes_predic
 TREE=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Trees/
 
 # Define arguments in each task
-ARGUMENT1=`awk -v task_id=$SLURM_ARRAY_TASK_ID 'NR==task_id' ${SRC}SortSeq_repair_JA.txt`
+ARGUMENT1=`awk -v task_id=1 'NR==task_id' ${SRC}SortSeq_repair_JA.txt`
 echo $SLURM_ARRAY_TASK_ID
 # Print info of the task
 echo $ARGUMENT1
@@ -39,3 +39,5 @@ cd ${INDIR}${gene_name}
 tar cvzf ${species_name}.tar.gz ${species_name}.*.fa.gz
 cd .
 rm ${INDIR}${gene_name}/${species_name}.renamed.*.fa.gz
+
+

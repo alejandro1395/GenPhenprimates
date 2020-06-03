@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --array=1-14
+#SBATCH --array=1-15671
 #SBATCH --job-name=AlignTrimm
 #SBATCH --output=/dev/null
 #SBATCH --error=/dev/null
@@ -21,7 +21,7 @@ SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Alignments_h
 TRAITS=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Phenomes/Primate_Traits/OUTPUT/TraitsPerSpecies.txt
 
 # Define arguments in each task
-ARGUMENT1=`awk -v task_id=8 'NR==task_id' ${SRC}trimAl_filter2_pos_repair_JA.txt`
+ARGUMENT1=`awk -v task_id=1 'NR==task_id' ${SRC}trimAl_filter2_pos_repair_JA.txt`
 echo $SLURM_ARRAY_TASK_ID
 # Print info of the task
 echo $ARGUMENT1
@@ -35,6 +35,6 @@ ${BIN} -in $ARGUMENT1 \
 -resoverlap 0.90 -seqoverlap $i > ${OUTDIR}${dir_out}/${species_name}.filter2.${i}.pep.aln
 done
 cd ${OUTDIR}${dir_out}/
-tar cvzf ${species_name}.filter2.tar.gz ${species_name}.filter2.*.aln
-rm *.filter2.*.pep.aln
+tar cvzf ${species_name}.filter2.tar.gz ${species_name}.filter2.*.pep.aln
 cd .
+rm ${OUTDIR}${dir_out}/*.filter2.*.pep.aln

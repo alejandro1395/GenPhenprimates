@@ -22,7 +22,7 @@ SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Genes_predic
 TRAITS=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Phenomes/Primate_Traits/OUTPUT/TraitsPerSpecies.txt
 
 # Define arguments in each task
-ARGUMENT1=`awk -v task_id=1 'NR==task_id' ${SRC}SortSeq_repair_JA.txt`
+ARGUMENT1=`awk -v task_id=$SLURM_ARRAY_TASK_ID 'NR==task_id' ${SRC}SortSeq_repair_JA.txt`
 echo $SLURM_ARRAY_TASK_ID
 # Print info of the task
 echo $ARGUMENT1
@@ -34,9 +34,9 @@ species_name=$(echo $ARGUMENT1 | rev | cut -d'/' -f1 | rev | cut -d \. -f 1)
 cd ${PROT_ALIGNMENT}${gene_name}
 tar xvzf ${species_name}.filter2.tar.gz ${species_name}.filter2.90.pep.aln
 cd .
-python ${SRC}SortSeq.py ${PROT_ALIGNMENT}${gene_name}/${species_name}.filter2.90.pep.aln \
-${PROT_FASTA}${gene_name}/${species_name}.pep.fa.gz \
-${SPECIES_IDs}summary_species.txt \
+python ${SRC}ExtrapolateAlignPos.py Homo_sapiens.filter1.ref_pos.txt \
+original_alignment \
+fasta_sequences \
 ${SPECIES_IDs} \
-${OUTDIR}${gene_name}/${species_name}.sorted.cds.fa.gz \
-${OUTDIR}${gene_name}/${species_name}.sorted.pep.fa.gz
+${OUTDIR}${gene_name}/corresponding positionaaa
+ \
