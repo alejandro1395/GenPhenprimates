@@ -1,0 +1,15 @@
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/RESEQUENCED/Input_fastas/ACE2/PRIVATE_SEQUENCES_ACE2.CSD.fasta
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/RESEQUENCED/Input_fastas/ASPM/PRIVATE_SEQUENCES_ASPM.CSD.fasta
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/RESEQUENCED/Input_fastas/ATM/PRIVATE_SEQUENCES_ATM.CSD.fasta
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/RESEQUENCED/Input_fastas/CASP10/PRIVATE_SEQUENCES_CASP10.CSD.fasta
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/RESEQUENCED/Input_fastas/CDK12/PRIVATE_SEQUENCES_CDK12.CSD.fasta
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/RESEQUENCED/Input_fastas/FSIP2/PRIVATE_SEQUENCES_FSIP2.CSD.fasta
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/RESEQUENCED/Input_fastas/IQCA1/PRIVATE_SEQUENCES_IQCA1.CSD.fasta
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/RESEQUENCED/Input_fastas/PCCA/PRIVATE_SEQUENCES_PCCA.CSD.fasta
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/RESEQUENCED/Input_fastas/SETX/PRIVATE_SEQUENCES_SETX.CSD.fasta
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/RESEQUENCED/Input_fastas/SPAG16/PRIVATE_SEQUENCES_SPAG16.CSD.fasta
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/RESEQUENCED/Input_fastas/STK17B/PRIVATE_SEQUENCES_STK17B.CSD.fasta
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/RESEQUENCED/Input_fastas/SYNE2/PRIVATE_SEQUENCES_SYNE2.CSD.fasta
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/RESEQUENCED/Input_fastas/TIMM50/PRIVATE_SEQUENCES_TIMM50.CSD.fasta
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/RESEQUENCED/Input_fastas/TOR2A/PRIVATE_SEQUENCES_TOR2A.CSD.fasta
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/RESEQUENCED/Input_fastas/WRN/PRIVATE_SEQUENCES_WRN.CSD.fasta
