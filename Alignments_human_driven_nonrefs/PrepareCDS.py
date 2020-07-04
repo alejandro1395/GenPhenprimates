@@ -22,28 +22,16 @@ Here we create the function for checking the input parameters and saving
 them in different variables, error if the usage is not good
 """
 
-if len(sys.argv) == 4:
+if len(sys.argv) == 6:
     cds_fasta_path = sys.argv[1]
-    tags_file = sys.argv[2]
-    out_path = sys.argv[3]
+    gene_name = sys.argv[2]
+    current_species = sys.argv[3]
+    consensus = sys.argv[4]
+    out_file = sys.argv[5]
 else:
     sys.exit("The usage shoud be: ortho_path tags_file pep_fasta_path out_file")
 
-#VARIABLES
-column1 = "Tag"
-column2 = "SpeciesBroad"
 
-
-#SPECIES NAMES ASSOCIATES TO TAGS
-Species_tags = pd.read_csv(tags_file, sep='\t', low_memory=False)#panda creation
-colnames = ['Target{}'.format(num) for num in range(1, len(Species_tags))]
-finalnames = ['Query'] + colnames
-
-#DICT SPECIES TAGS
-individuals_ids = Species_tags['PGDP ID'].to_list()
-Species_tags['Species_name'] = Species_tags[['Genus', 'Species']].agg('_'.join, axis=1)
-species_names = Species_tags['Species_name'].to_list()
-Species_tag_dict = {individuals_ids[i]:species_names[i] for i in range(0, len(individuals_ids))}
 
 """
 #Print out sorted species file
@@ -73,19 +61,27 @@ def select_current_value(current_dict, name):
 
 #Function to select fasta from species file and store it in a dict format
 
-only_genus = False
-with open(cds_fasta_path, 'r') as f:
+cons_seq = ""
+sequences = {}
+with gzip.open(cds_fasta_path, 'rt') as f:
     for line in f:
         line = line.rstrip()
         if line.startswith(">"):
-            ident = line[1:]
-            species = select_current_value(Species_tag_dict, ident)
-            if species.endswith("sp."):
-                only_genus = True
-            else:
-                only_genus = False
-                with gzip.open(out_path+species+".cds.fa.gz", 'at') as out_f:
-                    print(line, file=out_f)
-        elif not only_genus:
-            with gzip.open(out_path+species+".cds.fa.gz", 'at') as out_f:
-                print(line, file=out_f)
+            ident = line
+            sequences[ident] = ""
+        else:
+            sequences[ident] += line
+    if len(sequences) == 1:
+        with gzip.open(out_file+gene_name+".resequenced.cds.fa.gz", 'at') as out_f:
+            for key in sequences:
+                print(">"+current_species, file=out_f)
+                print(sequences[key], file=out_f)
+    else:
+        with gzip.open(consensus+"/"+current_species+".fa.gz", 'rt') as f2, \
+        gzip.open(out_file+gene_name+".resequenced.cds.fa.gz", 'at') as out_f2:
+            print(">"+current_species, file=out_f2)
+            for line in f2:
+                line = line.rstrip()
+                if not line.startswith(">"):
+                    cons_seq += line
+            print(cons_seq, file=out_f2)
