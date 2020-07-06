@@ -1,0 +1,1 @@
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/PGLS/Alignment_proteins/MUC16/Homo_sapiens.renamed.pep.aln

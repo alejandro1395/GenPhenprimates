@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --array=1-15
+#SBATCH --array=2-15
 #SBATCH --job-name=PrepCDS
 #SBATCH --output=/dev/null
 #SBATCH --error=/dev/null
@@ -22,7 +22,7 @@ mkdir -p ${OUTDIR}
 SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Alignments_human_driven_nonrefs/
 
 # Define arguments in each task
-ARGUMENT1=`awk -v task_id=1 'NR==task_id' ${SRC}PrepareCDS_input_JA.txt`
+ARGUMENT1=`awk -v task_id=$SLURM_ARRAY_TASK_ID 'NR==task_id' ${SRC}PrepareCDS_input_JA.txt`
 # Print info of the task
 echo $ARGUMENT1
 

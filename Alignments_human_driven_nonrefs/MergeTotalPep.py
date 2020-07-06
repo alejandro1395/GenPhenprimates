@@ -31,8 +31,9 @@ else:
     sys.exit("The usage shoud be: ortho_path tags_file pep_fasta_path out_file")
 
 #DICT SPECIES TAGS REFERENCES
-target_species = refs_species['Species'].to_list()
-tag_species = refs_species['Tag'].to_list()
+References_df = pd.read_csv(refs_species, sep='\t', low_memory=False)#panda creation
+target_species = References_df['Species'].to_list()
+tag_species = References_df['Tag'].to_list()
 Species_tag_dict = {tag_species[i]:target_species[i] for i in range(0, len(tag_species))}
 
 #dict DUPLICATED species
@@ -73,19 +74,24 @@ def select_current_value(current_dict, name):
 
 cons_seq = ""
 sequences = {}
-species_idents = []
+ref_species_idents = []
+ref_species_count = {}
 species_to_print = False
 """
 let's remove duplicates species between references and resequenced data
 """
-with gzip.open(merged_fasta_path, 'rt') as f, gzip.open(final_fasta_path, 'wt') as out_fh:
+with gzip.open(merged_fasta_path, 'rt') as f, gzip.open(out_file, 'wt') as out_fh:
     for line in f:
         line = line.rstrip()
         if line.startswith(">") and any(line[1:].startswith(tag_id) for tag_id in tag_species):
             ref_species = select_current_value(Species_tag_dict, line[1:])
-            print(">"+ref_species, file=out_fh)
-            species_to_print = True
-            ref_species_idents.append(ident)
+            if not ref_species in ref_species_count:
+                ref_species_count[ref_species] = 1
+                print(">"+ref_species, file=out_fh)
+                species_to_print = True
+                ref_species_idents.append(line[1:])
+            else:
+                species_to_print = False
         elif line.startswith(">") and not any(line[1:].startswith(spc) for spc in species_to_exclude):
             print(line, file=out_fh)
             species_to_print = True
