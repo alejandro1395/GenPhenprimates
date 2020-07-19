@@ -1,1 +1,0 @@
-/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MUC16/Homo_sapiens.pep.aln.gz

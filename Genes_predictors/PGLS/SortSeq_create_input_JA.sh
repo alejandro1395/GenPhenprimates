@@ -10,13 +10,10 @@ OUTDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_
 SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Genes_predictors/PGLS/
 
 #create variable file
-touch SortCDS_repair_JA.txt
+touch SortCDS_input_JA.txt
 
 #Loop for human genes
-genes="ART5 CNN3 CREBZF FBXO27 HSPB11 IQCF6 MDK MYL10 OR10AC1 OR5H8 "
-echo $genes | tr " " "\n" | while read gene;
-do for filepath in $(ls ${INDIR}${gene}/*.tar.gz);
-do echo "$filepath">> SortCDS_repair_JA.txt
+for filepath in $(ls ${INDIR}*/*.tar.gz);
+do echo "$filepath">> SortCDS_input_JA.txt
 echo $filepath
-done
 done

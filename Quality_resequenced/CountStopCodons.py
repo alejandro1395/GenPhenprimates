@@ -77,7 +77,7 @@ def count_stops_in_species_fasta(read_path):
         for line in f:
             line = line.rstrip()
             if line.startswith(">"):
-                ident = line
+                ident = line[1:]
                 spc_dict[ident] = 0
             elif not line.startswith(">"):
                 for element in line:
@@ -85,19 +85,58 @@ def count_stops_in_species_fasta(read_path):
                         spc_dict[ident] += 1
     return spc_dict
 
+"""
+Function to count percentage of protein without stop codons
+"""
+
+def count_prot_uninterrupted_in_species_fasta(read_path):
+    spc_dict_seq = {}
+    spc_dict_perc = {}
+    ident = ""
+    with gzip.open(read_path, 'rt') as f:
+        target_sequence = False
+        for line in f:
+            line = line.rstrip()
+            if line.startswith(">") and ident:
+                total = len(spc_dict_seq[ident])
+                if "*" in spc_dict_seq[ident]:
+                    first_stop_codon = spc_dict_seq[ident].find("*")
+                    good_perc = (int(first_stop_codon)+1)/total
+                    spc_dict_perc[ident] = good_perc
+                else:
+                    spc_dict_perc[ident] = 1
+                ident = line[1:]
+                spc_dict_seq[ident] = ""
+            elif line.startswith(">"):
+                ident = line[1:]
+                spc_dict_seq[ident] = ""
+            elif not line.startswith(">"):
+                spc_dict_seq[ident] += line
+        total = len(spc_dict_seq[ident])
+        if "*" in spc_dict_seq[ident]:
+            first_stop_codon = spc_dict_seq[ident].find("*")
+            good_perc = (int(first_stop_codon)+1)/total
+            spc_dict_perc[ident] = good_perc
+        else:
+            spc_dict_perc[ident] = 1
+    return spc_dict_perc
+
 
 
 
 #MAIN
 #Create FASTA FILES
-species_stops = {}
+species_df = pd.DataFrame(columns=['Species', 'Individual', 'Count', 'Good_perc'])
 for filename in os.listdir(gene_path):
     if filename.endswith(".gz"):
         individuals_stops = count_stops_in_species_fasta(gene_path + "/" + filename)
+        print(len(individuals_stops))
+        individuals_perc = count_prot_uninterrupted_in_species_fasta(gene_path + "/" + filename)
+        print(len(individuals_perc))
         species_name = filename.split(".")[0]
-        species_stops[species_name] = individuals_stops
+        for ind in individuals_stops:
+            species_df = species_df.append({'Species': species_name, 'Individual': ind,
+            'Count': individuals_stops[ind], 'Good_perc': individuals_perc[ind]}, ignore_index = True)
 
-species_df = pd.DataFrame(species_stops).T
-species_df.fillna(0, inplace=True)
-output_file = out_path_pep+".StopCounTable"
+output_file = out_path_pep + ".StopCountTable"
 species_df.to_csv(output_file, sep='\t')

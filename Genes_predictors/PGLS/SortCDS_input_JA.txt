@@ -289,6 +289,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ADGB/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ADGRA1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ADGRA2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ADGRA3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ADGRB1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ADGRB2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ADGRD1/Homo_sapiens.filter2.tar.gz
@@ -741,9 +742,25 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APC/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APCS/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APELA/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APEX1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APEX2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APH1A/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APH1B/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/API5/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APIP/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APLF/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APLN/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APLNR/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APLP1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APLP2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APMAP/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APOA2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APOA4/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APOBEC1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APOBEC2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APOBEC3F/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APOBEC4/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APOB/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APOBR/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APOC1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/APOC3/Homo_sapiens.filter2.tar.gz
@@ -889,6 +906,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARL4D/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARL6IP1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARL6IP4/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARL6IP5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARL6IP6/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARL8A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARL8B/Homo_sapiens.filter2.tar.gz
@@ -930,6 +948,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARRDC2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARRDC3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARRDC4/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARRDC5/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARSA/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARSB/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARSD/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARSF/Homo_sapiens.filter2.tar.gz
@@ -945,6 +965,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ART5/Papio_anubis.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARTN/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARV1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARVCF/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ARX/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/AS3MT/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ASAH1/Homo_sapiens.filter2.tar.gz
@@ -956,6 +977,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ASB11/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ASB12/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ASB13/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ASB14/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ASB16/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ASB17/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ASB18/Homo_sapiens.filter2.tar.gz
@@ -1004,6 +1026,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ASRGL1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ASS1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ASTE1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ASTL/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ASTN1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ASXL1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ASXL2/Homo_sapiens.filter2.tar.gz
@@ -1044,6 +1067,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ATG5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ATG7/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ATG9A/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ATG9B/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ATIC/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ATL1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ATL2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ATL3/Homo_sapiens.filter2.tar.gz
@@ -1086,6 +1111,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ATP4A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ATP4B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ATP6AP1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ATP6AP1L/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ATP6AP2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ATP6V0A1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ATP6V0A2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ATP6V0A4/Homo_sapiens.filter2.tar.gz
@@ -1198,6 +1225,11 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BACE1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BACE2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BACH1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BACH2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BAD/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BAG1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BAG2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BAG3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BAG4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BAG5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BAG6/Homo_sapiens.filter2.tar.gz
@@ -1386,6 +1418,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BORA/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BORCS5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BORCS6/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BPGM/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BPHL/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BPIFA1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BPIFA2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/BPIFA3/Homo_sapiens.filter2.tar.gz
@@ -1635,6 +1669,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/C1QTNF3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/C1QTNF4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/C1QTNF5/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/C1QTNF6/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/C1QTNF7/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/C1QTNF8/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/C1QTNF9/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/C1R/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/C1RL/Homo_sapiens.filter2.tar.gz
@@ -1857,6 +1894,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CAMK4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CAMKK1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CAMKK2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CAMKMT/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CAMKV/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CAMLG/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CAMP/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CAMSAP1/Homo_sapiens.filter2.tar.gz
@@ -1921,6 +1960,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CASP10/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CASP12/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CASP14/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CASP1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CASP2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CASP3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CASP4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CASP7/Homo_sapiens.filter2.tar.gz
@@ -1975,6 +2016,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCAR2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCBE1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC102A/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC102B/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC103/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC105/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC106/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC107/Homo_sapiens.filter2.tar.gz
@@ -2025,6 +2068,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC173/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC174/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC175/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC177/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC178/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC179/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC17/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC180/Homo_sapiens.filter2.tar.gz
@@ -2090,6 +2135,11 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC87/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC88A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC88B/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC88C/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC89/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC8/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC90B/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC91/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC92/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC93/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCDC96/Homo_sapiens.filter2.tar.gz
@@ -2129,6 +2179,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCNB2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCNB3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCNC/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCND1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCND2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCND3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCNDBP1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CCNE1/Homo_sapiens.filter2.tar.gz
@@ -2262,8 +2314,11 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDC14B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDC16/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDC20B/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDC20/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDC23/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDC25A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDC25B/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDC25C/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDC26/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDC27/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDC34/Homo_sapiens.filter2.tar.gz
@@ -2338,7 +2393,10 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDK3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDK4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDK5/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDK5R1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDK5R2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDK5RAP1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDK5RAP2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDK5RAP3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDK6/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CDK7/Homo_sapiens.filter2.tar.gz
@@ -2382,6 +2440,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CEACAM19/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CEACAM1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CEACAM20/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CEACAM5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CEACAM7/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CEBPA/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CEBPB/Homo_sapiens.filter2.tar.gz
@@ -2556,6 +2615,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CHI3L2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CHIA/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CHIC1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CHIC2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CHID1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CHIT1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CHKA/Homo_sapiens.filter2.tar.gz
@@ -2703,6 +2763,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CLDN8/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CLDN9/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CLDND1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CLDND2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CLEC10A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CLEC11A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CLEC12A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CLEC12B/Homo_sapiens.filter2.tar.gz
@@ -2802,6 +2864,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CMYA5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CNBD1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CNBD2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CNBP/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CNDP1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CNDP2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CNFN/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CNGA1/Homo_sapiens.filter2.tar.gz
@@ -2975,6 +3039,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/COX6A2/Gorilla_gorilla_gorilla.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/COX6B2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/COX6C/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/COX7A2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/COX7A2L/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/COX7B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/COX7C/Homo_sapiens.filter2.tar.gz
@@ -3010,6 +3075,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CPNE5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CPNE7/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CPNE8/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CPNE9/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CPO/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CPOX/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CPPED1/Homo_sapiens.filter2.tar.gz
@@ -3114,6 +3180,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CRYZ/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CRYZL1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CSAD/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CS/Chlorocebus_aethiops.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CSDC2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CSDE1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CSE1L/Homo_sapiens.filter2.tar.gz
@@ -3244,7 +3311,12 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CX3CR1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CXADR/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CXCL10/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CXCL11/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CXCL12/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CXCL13/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CXCL14/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CXCL16/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CXCL17/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CXCL2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CXCL5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CXCL6/Homo_sapiens.filter2.tar.gz
@@ -3311,7 +3383,11 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CYP2B6/Hoolock_hoolock.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CYP2C8/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CYP2D6/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CYP2E1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CYP2J2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CYP2R1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CYP2S1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CYP2U1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CYP2W1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CYP39A1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/CYP3A5/Homo_sapiens.filter2.tar.gz
@@ -3599,6 +3675,13 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DHX40/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DHX57/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DHX9/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DIABLO/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DIAPH1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DIAPH2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DIAPH3/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DICER1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DIDO1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DIMT1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DIP2A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DIP2B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DIP2C/Homo_sapiens.filter2.tar.gz
@@ -3676,6 +3759,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DNAH1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DNAH2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DNAH3/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DNAH5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DNAH7/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DNAH8/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DNAH9/Homo_sapiens.filter2.tar.gz
@@ -3888,6 +3972,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DUSP23/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DUSP26/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DUSP27/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DUSP28/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DUSP2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DUSP3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DUSP4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/DUSP5/Homo_sapiens.filter2.tar.gz
@@ -4028,6 +4114,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EFNA5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EFNB1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EFNB2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EFR3A/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EFR3B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EFTUD2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EGF/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EGFL6/Homo_sapiens.filter2.tar.gz
@@ -4204,6 +4292,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ENPP6/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ENPP7/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ENSA/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ENTHD1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ENTPD1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ENTPD2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ENTPD3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ENTPD4/Homo_sapiens.filter2.tar.gz
@@ -4285,6 +4375,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ERFE/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ERF/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ERG/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ERGIC1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ERGIC2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ERGIC3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ERH/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ERI2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ERI3/Homo_sapiens.filter2.tar.gz
@@ -4348,6 +4441,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ETS1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ETS2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ETV1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ETV2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ETV3/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ETV3L/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ETV4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ETV5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ETV6/Homo_sapiens.filter2.tar.gz
@@ -4390,7 +4486,12 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EXOSC3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EXOSC4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EXOSC5/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EXOSC6/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EXOSC7/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EXOSC8/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EXOSC9/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EXPH5/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EXT1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EXT2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EXTL1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/EXTL2/Homo_sapiens.filter2.tar.gz
@@ -4553,6 +4654,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FAM216A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FAM216B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FAM217A/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FAM217B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FAM219A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FAM219B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FAM220A/Homo_sapiens.filter2.tar.gz
@@ -4674,6 +4776,10 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FBXL17/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FBXL18/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FBXL19/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FBXL22/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FBXL2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FBXL3/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FBXL4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FBXL5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FBXL6/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FBXL7/Homo_sapiens.filter2.tar.gz
@@ -4789,6 +4895,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FGF17/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FGF18/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FGF19/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FGF1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FGF20/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FGF21/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FGF22/Homo_sapiens.filter2.tar.gz
@@ -5033,6 +5140,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FUT2/Pygathrix_nemaeus.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FUT4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FUT5/Macaca_fascicularis.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FUT7/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FUT8/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FUT9/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FUZ/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FXN/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/FXR1/Homo_sapiens.filter2.tar.gz
@@ -5123,6 +5233,10 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GALNT6/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GALNT7/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GALNT8/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GALNT9/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GALNTL5/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GALNTL6/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GALP/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GALR1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GALR2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GALR3/Homo_sapiens.filter2.tar.gz
@@ -5225,6 +5339,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GEMIN7/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GEMIN8/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GEN1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GET4/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GFAP/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GFER/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GFI1B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GFI1/Homo_sapiens.filter2.tar.gz
@@ -5295,6 +5411,10 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GJB4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GJB5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GJB6/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GJB7/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GJC1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GJC2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GJC3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GJD2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GJD3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GJD4/Homo_sapiens.filter2.tar.gz
@@ -5418,6 +5538,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GNS/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GOLGA1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GOLGA2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GOLGA3/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GOLGA4/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GOLGA5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GOLGA6L22/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GOLGA7B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GOLGA7/Homo_sapiens.filter2.tar.gz
@@ -5495,6 +5618,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GPR143/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GPR146/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GPR148/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GPR149/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GPR150/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GPR151/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GPR153/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GPR155/Homo_sapiens.filter2.tar.gz
@@ -5597,6 +5722,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GRIN3A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GRIN3B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GRINA/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GRIP1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GRIP2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GRIPAP1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GRK1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GRK2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/GRK3/Homo_sapiens.filter2.tar.gz
@@ -5904,6 +6032,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HLF/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HLTF/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HLX/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HM13/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HMBOX1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HMBS/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HMCES/Homo_sapiens.filter2.tar.gz
@@ -6028,7 +6157,11 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HRH1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HRH2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HRH3/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HRH4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HR/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HRNR/Mandrillus_sphinx.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HS1BP3/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HS2ST1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HS3ST1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HS3ST3B1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HS3ST5/Homo_sapiens.filter2.tar.gz
@@ -6095,6 +6228,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HSPH1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HTATIP2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HTATSF1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HTR1A/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HTR1B/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HTR1D/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HTR1F/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HTR2A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/HTR2B/Homo_sapiens.filter2.tar.gz
@@ -6151,6 +6287,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IDH3B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IDH3G/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IDI1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IDNK/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IDO1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IDO2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IDS/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IDUA/Homo_sapiens.filter2.tar.gz
@@ -6213,6 +6351,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IGFBP3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IGFBP4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IGFBP5/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IGFBP7/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IGFBPL1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IGFL1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IGFLR1/Homo_sapiens.filter2.tar.gz
@@ -6266,7 +6405,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IGSF6/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IGSF8/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IGSF9B/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IGSF9/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IHH/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IKBIP/Gorilla_gorilla_gorilla.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IKBKB/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IKBKE/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IKBKG/Homo_sapiens.filter2.tar.gz
@@ -6369,6 +6510,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IMMP1L/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IMMP2L/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IMMT/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IMP3/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IMP4/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IMPA1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IMPA2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IMPACT/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IMPAD1/Homo_sapiens.filter2.tar.gz
@@ -6429,6 +6573,10 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/INTS6L/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/INTS7/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/INTS8/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/INTS9/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/INTU/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/INVS/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IP6K1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IP6K2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IP6K3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IPCEF1/Homo_sapiens.filter2.tar.gz
@@ -6570,6 +6718,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IZUMO3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/IZUMO4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/JADE1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/JADE2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/JADE3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/JAG1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/JAG2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/JAGN1/Homo_sapiens.filter2.tar.gz
@@ -6855,6 +7005,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KIFC3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KIN/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KIR3DL3/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KIRREL2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KIRREL3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KISS1R/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KIT/Homo_sapiens.filter2.tar.gz
@@ -6916,6 +7067,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KLHL33/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KLHL34/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KLHL35/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KLHL36/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KLHL38/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KLHL3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KLHL40/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KLHL41/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KLHL42/Homo_sapiens.filter2.tar.gz
@@ -7001,6 +7155,10 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KRT33B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KRT35/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KRT36/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KRT37/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KRT38/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KRT39/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KRT3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KRT40/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KRT4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/KRT5/Homo_sapiens.filter2.tar.gz
@@ -7175,6 +7333,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LGALS3BP/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LGALS3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LGALS4/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LGALS7/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LGALS8/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LGALSL/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LGI1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LGI2/Homo_sapiens.filter2.tar.gz
@@ -7252,6 +7412,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LIX1L/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LKAAEAR1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LLGL1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LLGL2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LLPH/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LMAN1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LMAN1L/Homo_sapiens.filter2.tar.gz
@@ -7370,7 +7531,11 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LRRC32/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LRRC34/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LRRC36/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LRRC38/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LRRC39/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LRRC3B/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LRRC3C/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LRRC3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LRRC40/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LRRC41/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LRRC42/Homo_sapiens.filter2.tar.gz
@@ -7495,6 +7660,11 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LYPD8/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LYPLA2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LYPLAL1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LYRM1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LYRM2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LYRM4/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LYRM7/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LYSMD1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LYSMD2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LYSMD3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/LYSMD4/Homo_sapiens.filter2.tar.gz
@@ -7522,6 +7692,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MAD1L1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MAD2L1BP/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MAD2L1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MAD2L2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MADCAM1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MADD/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MAEA/Homo_sapiens.filter2.tar.gz
@@ -7669,6 +7840,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MARK2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MARK3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MARK4/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MARS2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MARVELD1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MARVELD2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MARVELD3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MAS1/Homo_sapiens.filter2.tar.gz
@@ -7875,7 +8048,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MEX3C/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MEX3D/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MFAP1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MFAP2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MFAP3/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MFAP3L/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MFAP4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MFAP5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MFF/Homo_sapiens.filter2.tar.gz
@@ -7915,6 +8090,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MGAT5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MGLL/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MGME1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MGMT/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MGP/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MGRN1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MGST1/Homo_sapiens.filter2.tar.gz
@@ -7957,6 +8133,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MIP/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MIPOL1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MIS12/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MIS18A/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MIS18BP1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MISP3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MITD1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MITF/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MIXL1/Homo_sapiens.filter2.tar.gz
@@ -8059,6 +8238,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MORF4L2/Otolemur_garnettii.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MORN1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MORN2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MORN3/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MORN4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MORN5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MOS/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MOSPD1/Homo_sapiens.filter2.tar.gz
@@ -8276,6 +8457,10 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MTHFR/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MTHFSD/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MTHFS/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MTIF2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MTIF3/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MTMR10/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MTMR11/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MTMR12/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MTMR14/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MTMR1/Homo_sapiens.filter2.tar.gz
@@ -8307,6 +8492,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MUC12/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MUC13/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MUC15/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MUC16/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MUC17/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MUC19/Papio_hamadryas.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MUC1/Homo_sapiens.filter2.tar.gz
@@ -8346,6 +8532,10 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MYBPC1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MYBPC2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MYBPC3/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MYBPH/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MYBPHL/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MYCBP2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MYCBPAP/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MYCBP/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MYC/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MYCL/Homo_sapiens.filter2.tar.gz
@@ -8420,6 +8610,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MYOM2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MYOM3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MYOT/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MYOZ2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MYOZ3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MYPN/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/MYPOP/Homo_sapiens.filter2.tar.gz
@@ -8581,6 +8772,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NDST3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NDUFA10/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NDUFA12/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NDUFA1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NDUFA2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NDUFA3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NDUFA5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NDUFA6/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NDUFA7/Homo_sapiens.filter2.tar.gz
@@ -8653,6 +8847,10 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NELFB/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NELFCD/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NELFE/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NELL1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NELL2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NEMF/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NEMP1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NEMP2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NENF/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NEO1/Homo_sapiens.filter2.tar.gz
@@ -8741,6 +8939,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NINL/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NIP7/Lemur_catta.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NIPA1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NIPA2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NIPAL1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NIPAL2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NIPAL3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NIPAL4/Homo_sapiens.filter2.tar.gz
@@ -8853,6 +9053,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NOP56/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NOP58/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NOP9/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NOS1AP/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NOS1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NOS2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NOS3/Homo_sapiens.filter2.tar.gz
@@ -8954,6 +9155,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NRDE2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NREP/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NRF1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NRG1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NRG2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NRG3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NRG4/Homo_sapiens.filter2.tar.gz
@@ -9033,6 +9235,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NUDCD2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NUDCD3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NUDC/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NUDT11/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NUDT12/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NUDT13/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/NUDT14/Homo_sapiens.filter2.tar.gz
@@ -9133,7 +9336,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ODF3L1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ODF3L2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ODF4/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OFD1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OGDH/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OGDHL/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OGFOD1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OGFOD2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OGFOD3/Homo_sapiens.filter2.tar.gz
@@ -9200,6 +9405,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OR4C16/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OR4D5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OR4F15/Gorilla_gorilla_gorilla.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OR4F6/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OR4K15/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OR51F1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OR51I1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OR51V1/Homo_sapiens.filter2.tar.gz
@@ -9213,6 +9420,10 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OR5H8/Rhinopithecus_roxellana.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OR5M3/Pygathrix_nemaeus.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OR5P2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OR6B2/Pan_paniscus.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OR6B2/Papio_hamadryas.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OR6B2/Pongo_pygmaeus.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OR6B2/Pygathrix_nemaeus.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OR6Q1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OR7E24/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/OR7G3/Homo_sapiens.filter2.tar.gz
@@ -9321,6 +9532,12 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PABPC1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PABPC1L/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PABPC3/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PABPC4/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PABPC4L/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PABPC5/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PABPN1L/Callithrix_jacchus.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PACRG/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PACRGL/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PACS1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PACS2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PACSIN1/Homo_sapiens.filter2.tar.gz
@@ -9500,7 +9717,12 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCF11/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCGF1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCGF2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCGF3/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCGF5/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCGF6/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PC/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCID2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCIF1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCK1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCK2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCLO/Homo_sapiens.filter2.tar.gz
@@ -9529,7 +9751,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCSK7/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCSK9/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCTP/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCYOX1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCYOX1L/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCYT1A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCYT1B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PCYT2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PDAP1/Homo_sapiens.filter2.tar.gz
@@ -9731,6 +9955,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PHC3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PHEX/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PHF10/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PHF11/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PHF12/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PHF13/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PHF14/Papio_anubis.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PHF19/Homo_sapiens.filter2.tar.gz
@@ -9810,6 +10036,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PIGS/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PIGT/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PIGU/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PIGV/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PIGW/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PIGX/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PIGZ/Homo_sapiens.filter2.tar.gz
@@ -9869,7 +10096,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PKD1L1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PKD1L2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PKD1L3/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PKD2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PKD2L1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PKD2L2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PKDCC/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PKDREJ/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PKHD1/Homo_sapiens.filter2.tar.gz
@@ -9947,6 +10176,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PLD4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PLD5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PLD6/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PLEC/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PLEK2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PLEKHA1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PLEKHA2/Homo_sapiens.filter2.tar.gz
@@ -9981,6 +10211,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PLEK/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PLEKHS1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PLET1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PLG/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PLGRKT/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PLIN1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PLIN2/Homo_sapiens.filter2.tar.gz
@@ -10080,6 +10311,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/POC1B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/POC5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PODN/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PODNL1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PODXL2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PODXL/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/POF1B/Homo_sapiens.filter2.tar.gz
@@ -10303,6 +10535,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRADC1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRAF2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRAM1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRAMEF12/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRAMEF17/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRAMEF1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRAMEF20/Homo_sapiens.filter2.tar.gz
@@ -10351,7 +10584,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRIM2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRIMA1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRIMPOL/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRKAA2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRKAB1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRKAB2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRKACB/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRKACG/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRKAG1/Homo_sapiens.filter2.tar.gz
@@ -10451,6 +10686,11 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRR27/Papio_anubis.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRR29/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRR30/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRR35/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRR36/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRR3/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRR5-ARHGAP8/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRR5L/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRR7/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRR9/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PRRC1/Homo_sapiens.filter2.tar.gz
@@ -10601,7 +10841,12 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PTH1R/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PTH2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PTH2R/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PTH/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PTHLH/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PTK2B/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PTK2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PTK6/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PTK7/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PTMS/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PTN/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/PTOV1/Homo_sapiens.filter2.tar.gz
@@ -10735,6 +10980,13 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RAB1A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RAB1B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RAB20/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RAB21/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RAB22A/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RAB23/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RAB24/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RAB25/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RAB26/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RAB27A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RAB27B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RAB28/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RAB29/Homo_sapiens.filter2.tar.gz
@@ -10857,6 +11109,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RARB/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RARG/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RARRES1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RARRES2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RARS2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RASA1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RASA2/Homo_sapiens.filter2.tar.gz
@@ -10903,6 +11156,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RBBP4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RBBP5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RBBP6/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RBBP7/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RBBP8/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RBBP8NL/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RBBP9/Homo_sapiens.filter2.tar.gz
@@ -11300,6 +11554,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ROPN1L/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ROR1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ROR2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RORB/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RORC/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ROS1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RP1L1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RP1/Mandrillus_sphinx.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RP2/Homo_sapiens.filter2.tar.gz
@@ -11359,6 +11616,10 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RPL4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RPL5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RPL6/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RPL7A/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RPL7/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RPL7L1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RPL8/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RPL9/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RPLP0/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RPLP1/Homo_sapiens.filter2.tar.gz
@@ -11443,6 +11704,10 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RRP1B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RRP1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RRP36/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RRP7A/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RRP8/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RRP9/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RRS1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RS1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RSAD1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/RSAD2/Homo_sapiens.filter2.tar.gz
@@ -11544,6 +11809,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/S1PR3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/S1PR4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/S1PR5/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SAA1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SAA2-SAA4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SAAL1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SAC3D1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SACM1L/Homo_sapiens.filter2.tar.gz
@@ -11631,7 +11898,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SCARF2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SCCPDH/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SCD5/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SCD/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SCEL/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SCFD1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SCFD2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SCG2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SCG3/Homo_sapiens.filter2.tar.gz
@@ -11902,6 +12171,11 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SGK2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SGK3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SGMS1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SGMS2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SGO1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SGO2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SGPL1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SGPP1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SGPP2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SGSH/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SGSM1/Homo_sapiens.filter2.tar.gz
@@ -12036,7 +12310,9 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SKAP1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SKAP2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SKIDA1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SKI/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SKIL/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SKIV2L/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SKOR1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SKOR2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SKP1/Homo_sapiens.filter2.tar.gz
@@ -12239,6 +12515,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SLC32A1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SLC33A1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SLC34A1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SLC34A2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SLC34A3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SLC35A1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SLC35A2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SLC35A4/Homo_sapiens.filter2.tar.gz
@@ -12479,7 +12757,10 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SMIM13/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SMIM14/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SMIM17/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SMIM19/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SMIM20/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SMIM23/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SMIM24/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SMIM4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SMIM5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SMIM7/Homo_sapiens.filter2.tar.gz
@@ -12541,6 +12822,11 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SNRNP35/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SNRNP40/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SNRNP48/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SNRNP70/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SNRPA1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SNRPA/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SNRPB2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SNRPB/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SNRPD1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SNRPD2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SNRPD3/Homo_sapiens.filter2.tar.gz
@@ -12866,6 +13152,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SSTR4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SSTR5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SSU72/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SSUH2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/SSX2IP/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ST13/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ST14/Homo_sapiens.filter2.tar.gz
@@ -12951,7 +13238,10 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/STK33/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/STK35/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/STK36/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/STK38/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/STK38L/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/STK39/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/STK3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/STK40/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/STK4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/STKLD1/Homo_sapiens.filter2.tar.gz
@@ -13155,6 +13445,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TAC1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TAC3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TACC1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TACC2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TACC3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TACO1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TACR1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TACR2/Homo_sapiens.filter2.tar.gz
@@ -13169,6 +13461,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TAF12/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TAF13/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TAF15/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TAF1A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TAF1B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TAF1C/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TAF1D/Homo_sapiens.filter2.tar.gz
@@ -13211,6 +13504,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TARM1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TARS2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TAS1R1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TAS1R2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TAS1R3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TAS2R13/Pan_troglodytes.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TASP1/Homo_sapiens.filter2.tar.gz
@@ -13285,6 +13579,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TBX4/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TBX5/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TBX6/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TBXA2R/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TBXAS1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TC2N/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TCAF1/Homo_sapiens.filter2.tar.gz
@@ -13390,11 +13685,14 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TERF2IP/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TERT/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TESC/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TES/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TESK1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TESK2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TESMIN/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TESPA1/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TET1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TET2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TET3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TEX101/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TEX10/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TEX11/Homo_sapiens.filter2.tar.gz
@@ -13545,6 +13843,10 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TIMM17B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TIMM21/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TIMM22/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TIMM23/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TIMM29/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TIMM44/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TIMM50/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TIMM8A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TIMM8B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TIMM9/Hoolock_hoolock.filter2.tar.gz
@@ -13688,6 +13990,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TMEM147/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TMEM14A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TMEM14B/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TMEM150A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TMEM150B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TMEM150C/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TMEM151A/Homo_sapiens.filter2.tar.gz
@@ -13835,6 +14138,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TMEM64/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TMEM65/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TMEM67/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TMEM68/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TMEM69/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TMEM70/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TMEM71/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TMEM72/Homo_sapiens.filter2.tar.gz
@@ -13966,8 +14271,12 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOB2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOE1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOLLIP/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOM1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOM1L1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOM1L2/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOMM20/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOMM20L/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOMM22/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOMM34/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOMM40/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOMM40L/Homo_sapiens.filter2.tar.gz
@@ -13987,6 +14296,8 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOR1AIP1/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOR1AIP2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOR1B/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOR2A/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOR3A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOR4A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOX2/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/TOX3/Homo_sapiens.filter2.tar.gz
@@ -15419,8 +15730,16 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF3/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF407/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF408/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF410/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF416/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF418/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF41/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF420/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF423/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF425/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF426/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF428/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF429/Daubentonia_madagascariensis.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF432/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF433/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF436/Homo_sapiens.filter2.tar.gz
@@ -15456,6 +15775,10 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF512B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF512/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF513/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF514/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF516/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF517/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF518A/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF518B/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF521/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF527/Homo_sapiens.filter2.tar.gz
@@ -15564,6 +15887,7 @@
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF724/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF726/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF729/Homo_sapiens.filter2.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF736/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF740/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF746/Homo_sapiens.filter2.tar.gz
 /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/ZNF747/Homo_sapiens.filter2.tar.gz
