@@ -1,0 +1,4 @@
+/scratch/devel/lkuderna/PGDP/project_NIST/GENE_VARIANTS/HG001_chimp/HG001_chimp.private_CDS.tsv
+/scratch/devel/lkuderna/PGDP/project_NIST/GENE_VARIANTS/HG001_human/HG001_human.private_CDS.tsv
+/scratch/devel/lkuderna/PGDP/project_NIST/GENE_VARIANTS/HG001_ponabe/HG001_ponabe.private_CDS.tsv
+/scratch/devel/lkuderna/PGDP/project_NIST/GENE_VARIANTS/HG001_ponpyg/HG001_ponpyg.private_CDS.tsv

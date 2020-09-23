@@ -45,7 +45,7 @@ FUNCTIONS
 
 stop_codons = ["TGA", "TAG", "TAA"]
 stop_codon_info = pd.read_csv(positions_file, sep='\t', low_memory=False,
-names=["Index", "Gene", "Species", "Position", "Perc_Reseq"])#panda creation
+names=["Index", "Gene", "Species", "Position", "Perc_Reseq", "Frameshift"])#panda creation
 
 
 #REFS_DICT AND RESEQUENCED_DICT
@@ -107,20 +107,23 @@ for i, row in stop_codon_info.iterrows():
     if Species in genes_dict:
         if row['Position'] in genes_dict[Species]:
             genes_dict[Species][row['Position']].append(row['Perc_Reseq'])
+            genes_dict[Species][row['Position']].append(row['Frameshift'])
         else:
             genes_dict[Species][row['Position']] = []
             genes_dict[Species][row['Position']].append(row['Perc_Reseq'])
+            genes_dict[Species][row['Position']].append(row['Frameshift'])
     else:
         genes_dict[Species] = {}
         genes_dict[Species][row['Position']] = []
         genes_dict[Species][row['Position']].append(row['Perc_Reseq'])
+        genes_dict[Species][row['Position']].append(row['Frameshift'])
 
 
 
 #Loop through cases taking alignment of references into consideration
 
 Spc_frame = pd.DataFrame(columns=("Gene", "Species", "Position", "Perc_Reseq",
-"Perc_Refs", "Pos_rel"))
+"Perc_Refs", "Pos_rel", "Frameshift"))
 
 for spc in genes_dict:
     for pos in genes_dict[spc]:
@@ -141,7 +144,8 @@ for spc in genes_dict:
         perc_refs = count_validated/(len(refs_dict)-1)
         values_to_add = {'Gene': gene_name, 'Species': spc,
         'Position': pos, "Perc_Reseq": round(genes_dict[spc][pos][0],2),
-        "Perc_Refs": round(perc_refs, 2), "Pos_rel": round(pos_rel, 2)}
+        "Perc_Refs": round(perc_refs, 2), "Pos_rel": round(pos_rel, 2),
+        "Frameshift": genes_dict[spc][pos][1]}
         row_to_add = pd.Series(values_to_add)
         Spc_frame = Spc_frame.append(row_to_add, ignore_index = True)
 

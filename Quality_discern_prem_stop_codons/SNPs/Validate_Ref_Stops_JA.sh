@@ -31,6 +31,6 @@ gene_name=$(echo $(basename $(dirname $ARGUMENT1)))
 mkdir -p ${OUTDIR}${gene_name}
 species_name=$(echo $ARGUMENT1 | rev | cut -d'/' -f1 | rev | cut -d \. -f 1)
 python ${SRC}Validate_Ref_Stops.py ${ALIGNMENT}${gene_name}/${species_name}.renamed.cds.aln \
-${POSITIONS}${gene_name}/All_stop_codons_ref_frame.txt \
+${POSITIONS}${gene_name}/All_stop_codons_used_ref.txt \
 ${gene_name} \
-${OUTDIR}${gene_name}/${species_name}.validated.stop_codons_ref_frame.txt
+${OUTDIR}${gene_name}/${species_name}.validated.stop_codons_used_ref.txt

@@ -107,6 +107,7 @@ def select_current_value(current_dict, name):
 #Search for STOP codons
 
 stop_codon_pos_ref = {}
+stop_codon_pos_frame= {}
 for reseq in resequenced_pos:
     positions = resequenced_pos[reseq]
     for i in range(0, len(positions), 3):
@@ -132,6 +133,10 @@ for reseq in resequenced_pos:
                 and ref_codon not in stop_codons and "-" not in ref_codon:
                     index_alignment = positions[i]
                     index = int(ref_positions.index(index_alignment))+1
+                    if int(ref_positions.index(index_alignment)) % 3 == 0:
+                        stop_codon_pos_frame[index] = "Yes"
+                    else:
+                        stop_codon_pos_frame[index] = "No"
                     stop_codon_pos_ref[index] = 0
                     for spc in reseq_codons_dict:
                         if reseq_codons_dict[spc] in ["TGA", "TAG", "TAA"]:
@@ -141,10 +146,10 @@ for reseq in resequenced_pos:
 
 #CREATE PANDAS DATAFRAME
 
-Spc_frame = pd.DataFrame(columns=("Gene", "Species", "Position", "Perc"))
+Spc_frame = pd.DataFrame(columns=("Gene", "Species", "Position", "Perc", "Frameshift"))
 for pos in stop_codon_pos_ref:
     values_to_add = {'Gene': gene_name, 'Species': spc_name,
-    'Position': pos, "Perc": stop_codon_pos_ref[pos]}
+    'Position': pos, "Perc": stop_codon_pos_ref[pos], "Frameshift": stop_codon_pos_frame[pos]}
     row_to_add = pd.Series(values_to_add)
     Spc_frame = Spc_frame.append(row_to_add, ignore_index = True)
 #Spc_frame = pd.DataFrame.from_dict(SpeciesRefs_frameshift_dict, orient='index')
