@@ -1,0 +1,3 @@
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Input_fastas/MUC16/Homo_sapiens.pep.fa.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Input_fastas/PRKRA/Homo_sapiens.pep.fa.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Input_fastas/OBSCN/Homo_sapiens.pep.fa.gz

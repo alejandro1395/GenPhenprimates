@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --array=1-19729
+#SBATCH --array=2-19729
 #SBATCH --job-name=BlastPAll
 #SBATCH --output=/dev/null
 #SBATCH --error=/dev/null
@@ -15,10 +15,10 @@ module load BLAST+
 
 #Define PATH argument
 
-QUERY=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BLAST_in/
-TARGET=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BLAST_nrDB/
-OUTDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BLAST_out/
-SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Orthologies_human_driven_refs/BlastP/
+QUERY=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/BLAST_in/
+TARGET=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/BLAST_nrDB/
+OUTDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/BLAST_out/
+SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Orthologies_fixed_annotations/BlastP/
 
 # Define arguments in each task
 ARGUMENT1=`awk -v task_id=1 'NR==task_id' ${SRC}BlastPallqueryVSallnr_100_repair_JA.txt`
@@ -43,5 +43,7 @@ gzip ${OUTDIR}${gene_name}/${species_name}.nr100.pep
 fi
 done
 #tar arxives again
-tar cvzf ${OUTDIR}${gene_name}/${gene_name}.tar.gz ${OUTDIR}${gene_name}/*
-rm ${OUTDIR}${gene_name}/*.pep.gz
+cd ${OUTDIR}${gene_name}
+tar cvzf ${OUTDIR}${gene_name}/${gene_name}.tar.gz *.pep.gz
+rm *.pep.gz
+cd .

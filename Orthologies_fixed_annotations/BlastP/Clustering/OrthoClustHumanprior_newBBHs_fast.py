@@ -66,7 +66,7 @@ tag_species = Species_tags['Tag'].to_list()
 Species_tag_dict = {tag_species[i]:target_species[i] for i in range(0, len(tag_species))}
 
 #DICT TRAITS TAGS
-trait_species = Trait_covs['SpeciesBroad'].to_list()
+trait_species = Trait_covs['Species_genome'].to_list()
 trait_traits = Trait_covs['Traits'].to_list()
 Trait_covs_dict = {trait_species[i]:trait_traits[i] for i in range(0, len(trait_species))}
 

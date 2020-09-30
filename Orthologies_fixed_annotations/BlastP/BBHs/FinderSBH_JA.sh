@@ -3,7 +3,7 @@
 #SBATCH --job-name=FinderSBH
 #SBATCH --output=/dev/null
 #SBATCH --error=/dev/null
-#SBATCH --time=00:30:00
+#SBATCH --time=01:30:00
 
 #Define modules
 
@@ -15,10 +15,10 @@ module load BLAST+
 
 #Define PATH argument
 
-SPECIES_IDs=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/REFS/
-INDIR_BLAST=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BLAST_out/
-OUTDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/SBHs/
-SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Orthologies_human_driven_refs/BlastP/BBHs/
+SPECIES_IDs=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/REFS_FIXED/
+INDIR_BLAST=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/BLAST_out/
+OUTDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/SBHs/
+SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Orthologies_fixed_annotations/BlastP/BBHs/
 mkdir -p ${OUTDIR}
 
 # Define arguments in each task
@@ -41,5 +41,7 @@ ${OUTDIR}${gene_name}/${species_name}.pep.SBH.gz
 fi
 done
 #tar arxives again
-tar cvzf ${OUTDIR}${gene_name}/${gene_name}.tar.gz ${OUTDIR}${gene_name}/*
-rm ${OUTDIR}${gene_name}/*.pep.SBH.gz
+cd ${OUTDIR}${gene_name}
+tar cvzf ${OUTDIR}${gene_name}/${gene_name}.tar.gz *.pep.SBH.gz
+rm *.pep.SBH.gz
+cd .

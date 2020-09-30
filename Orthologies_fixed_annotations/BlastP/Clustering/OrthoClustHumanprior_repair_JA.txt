@@ -1,1 +1,2 @@
-/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BLAST_out/NDUFA3/NDUFA3.tar.gz 
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/BBHs/GRAMD1A/GRAMD1A.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/BBHs/ESF1/ESF1.tar.gz

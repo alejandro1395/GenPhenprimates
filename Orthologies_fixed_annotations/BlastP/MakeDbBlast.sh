@@ -7,9 +7,10 @@ module load PYTHON/3.6.3
 module load BLAST+
 
 #We keep the species names for each one of the primates used for annotation from their path
-INDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BLAST_in/
-OUTDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/BLAST_nrDB/
-SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Orthologies_human_driven_refs/BlastP/
+INDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/BLAST_in/
+OUTDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/BLAST_nrDB/
+mkdir -p $OUTDIR
+SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Orthologies_fixed_annotations/BlastP/
 
 for filepath in $(ls ${OUTDIR}*/*.gz);
 do dir_out=$(echo $(dirname $filepath)) 
