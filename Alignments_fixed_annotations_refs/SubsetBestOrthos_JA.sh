@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --array=1-19729%500
+#SBATCH --array=2-19729
 #SBATCH --job-name=AlignClust
 #SBATCH --output=/dev/null
 #SBATCH --error=/dev/null
@@ -13,11 +13,11 @@ module load PYTHON/3.6.3
 module load BLAST+
 
 #Define PATH argument
-SPECIES_IDs=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/REFS/
-INDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Clean_clusters/
-OUTDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Input_clusters/
-SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Alignments_human_driven_refs/
-TRAITS=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Phenomes/Primate_Traits/OUTPUT/TraitsPerSpecies.txt
+SPECIES_IDs=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/REFS_FIXED/
+INDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/Clean_clusters/
+OUTDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/Alignments_refs/Input_clusters/
+SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Alignments_fixed_annotations_refs/
+TRAITS=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Phenomes/Traits_counts_refs.tsv
 mkdir -p ${OUTDIR}
 
 # Define arguments in each task
@@ -30,17 +30,17 @@ echo $ARGUMENT1
 gene_name=$(echo $ARGUMENT1 | rev | cut -d'/' -f1 | rev | cut -d \. -f 1)
 mkdir -p ${OUTDIR}${gene_name}
 tar xvzf ${INDIR}${gene_name}/${gene_name}.tar.gz --directory ${INDIR}${gene_name}/
-for filepath in $(ls ${INDIR}${gene_name}${INDIR}${gene_name}/*clean.pep.gz);
+rm ${INDIR}${gene_name}/${gene_name}.tar.gz
+for filepath in $(ls ${INDIR}${gene_name}/*clean.pep.gz);
 do species_name=$(echo $filepath | rev | cut -d'/' -f1 | rev | cut -d \. -f 1) 
 python ${SRC}SubsetBestOrthos.py ${filepath} \
 ${SPECIES_IDs}summary_species.txt \
 ${OUTDIR}${gene_name}/${species_name}.clusters.pep.gz
 done
 #tar arxives again
-rm ${INDIR}${gene_name}/${gene_name}.tar.gz
 cd ${INDIR}${gene_name}/
-tar cvzf ${gene_name}.tar.gz scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Clean_clusters/${gene_name}/*.gz
-cd .
-rm -r ${INDIR}${gene_name}/scratch
-tar cvzf ${OUTDIR}${gene_name}/${gene_name}.tar.gz ${OUTDIR}${gene_name}/*.clusters.pep.gz
-rm ${OUTDIR}${gene_name}/*.clusters.pep.gz
+tar cvzf ${gene_name}.tar.gz *clean.pep.gz
+rm -r *clean.pep.gz
+cd ${OUTDIR}${gene_name}
+tar cvzf ${OUTDIR}${gene_name}/${gene_name}.tar.gz *.clusters.pep.gz
+rm *.clusters.pep.gz

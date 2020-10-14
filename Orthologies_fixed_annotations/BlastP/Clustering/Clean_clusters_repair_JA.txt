@@ -1,1 +1,8 @@
-/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Orthology_clusters/A1BG/A1BG.tar.gz 
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/Orthology_clusters/A1BG/A1BG.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/Orthology_clusters/CBLC/CBLC.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/Orthology_clusters/CD38/CD38.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/Orthology_clusters/CEBPG/CEBPG.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/Orthology_clusters/CDC34/CDC34.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/Orthology_clusters/ADAMTSL1/ADAMTSL1.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/Orthology_clusters/ADCK1/ADCK1.tar.gz
+/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/Orthology_clusters/CCDC14/CCDC14.tar.gz

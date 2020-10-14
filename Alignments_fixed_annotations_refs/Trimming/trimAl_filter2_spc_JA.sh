@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --array=1-323
+#SBATCH --array=1-16202
 #SBATCH --job-name=AlignTrimm
 #SBATCH --output=/dev/null
 #SBATCH --error=/dev/null
@@ -13,28 +13,33 @@ module load PYTHON/3.6.3
 module load BLAST+
 
 #Define PATH argument
-SPECIES_IDs=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/REFS/
+SPECIES_IDs=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Genomes/Annotations/REFS_FIXED/
 BIN=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/bin/trimAl/source/trimal
-INDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments/
-OUTDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/human_driven_results/Alignments_refs/Prot_alignments_filtered/
-SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Alignments_human_driven_refs/Trimming/
-TRAITS=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Phenomes/Primate_Traits/OUTPUT/TraitsPerSpecies.txt
+OUTDIR=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/Alignments_refs/Prot_alignments_filtered/
+SRC=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/src/Alignments_fixed_annotations_refs/Trimming/
+TRAITS=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Phenomes/Traits_counts_refs.tsv
 
 # Define arguments in each task
-ARGUMENT1=`awk -v task_id=$SLURM_ARRAY_TASK_ID 'NR==task_id' ${SRC}trimAl_filter2_pos_input_JA.txt`
+ARGUMENT1=`awk -v task_id=$SLURM_ARRAY_TASK_ID 'NR==task_id' ${SRC}trimAl_filter2_spc_input_JA.txt`
 echo $SLURM_ARRAY_TASK_ID
 # Print info of the task
 echo $ARGUMENT1
 
 # EXECUTING PART
-for i in {50..100..2}
-do dir_out=$(echo $(basename $(dirname $ARGUMENT1)))
+dir_out=$(echo $(basename $(dirname $ARGUMENT1)))
 mkdir -p ${OUTDIR}${dir_out}
-species_name=$(echo $ARGUMENT1 | rev | cut -d'/' -f1 | rev | cut -d \. -f 1)
-${BIN} -in $ARGUMENT1 \
+tar xvzf ${OUTDIR}${dir_out}/${dir_out}.tar.gz --directory ${OUTDIR}${dir_out}/
+rm ${OUTDIR}${dir_out}/${dir_out}.tar.gz
+for i in {50..100..2}
+do for filepath in $(ls ${OUTDIR}${dir_out}/*filter1.pep.aln);
+do species_name=$(echo $filepath | rev | cut -d'/' -f1 | rev | cut -d \. -f 1)
+${BIN} -in $filepath \
 -resoverlap 0.90 -seqoverlap $i > ${OUTDIR}${dir_out}/${species_name}.filter2.${i}.pep.aln
 done
+done
+#rm tar files
 cd ${OUTDIR}${dir_out}/
-tar cvzf ${species_name}.filter2.tar.gz ${species_name}.filter2.*.pep.aln
+tar cvzf ${dir_out}.tar.gz *
+rm *.pep.aln
+rm *.txt
 cd .
-rm ${OUTDIR}${dir_out}/*.filter2.*.pep.aln

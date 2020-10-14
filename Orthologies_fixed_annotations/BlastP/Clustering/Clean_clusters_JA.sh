@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --array=2-19729
+#SBATCH --array=1-8
 #SBATCH --job-name=OrthoClust
 #SBATCH --output=/dev/null
 #SBATCH --error=/dev/null
@@ -21,7 +21,7 @@ TRAITS=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/data/Phenomes
 mkdir -p ${OUTDIR}
 
 # Define arguments in each task
-ARGUMENT1=`awk -v task_id=$SLURM_ARRAY_TASK_ID 'NR==task_id' ${SRC}Clean_clusters_input_JA.txt`
+ARGUMENT1=`awk -v task_id=1 'NR==task_id' ${SRC}Clean_clusters_repair_JA.txt`
 echo $SLURM_ARRAY_TASK_ID
 # Print info of the task
 echo $ARGUMENT1

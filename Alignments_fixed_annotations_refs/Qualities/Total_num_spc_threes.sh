@@ -18,17 +18,22 @@ mkdir -p /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annot
 mkdir -p /scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/Alignments_refs/summary_statistics/qu/
 SUMMARY=/scratch/devel/avalenzu/PhD_EvoGenom/GenomPhenom200primates/fixed_annotation_results/Alignments_refs/summary_statistics/
 
-echo "#!/bin/bash
+#EXECUTING PART
+# Define arguments in each task
+
+for i in {50..100..2}
+do echo "#!/bin/bash
 module purge
 module load gcc/4.9.3-gold
 module load PYTHON/3.6.3
 
-python ${SRC}total_mean_ident_spc.py ${OUTDIR} \
+python ${SRC}Total_num_spc_threes.py ${INDIR} ${i} \
 ${SPECIES_IDs}summary_species.txt \
-${SUMMARY}"> ${SUMMARY}qu/total_mean_ident_spc.sh
-jobname=$(echo ${SUMMARY}qu/total_mean_ident_spc.sh)
+${SUMMARY}"> ${SUMMARY}qu/total_num_spc.${i}.sh
+jobname=$(echo ${SUMMARY}qu/total_num_spc.${i}.sh)
 chmod 755 $jobname
 
 #SUBMISSION TO CLUSTER
-/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${SUMMARY}out/total_mean_ident_spc.out \
--e ${SUMMARY}out/total_mean_ident_spc.err -n total_mean_ident -u 1 -t 1 -w 03:00:00
+/scratch/devel/avalenzu/CNAG_interface/submit.py -c ${jobname} -o ${SUMMARY}out/${i}.out \
+-e ${SUMMARY}out/${i}.err -n ${i} -u 1 -t 1 -w 01:00:00
+done
